@@ -261,8 +261,8 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 	avgCharsPerToken := float64(12.5)
 
 	//The last multiplication by  is to account for the generated nonterminals
-	stackPoolBaseSize := math.Ceil(4 * (((float64(rawInputSize) / avgCharsPerToken) / float64(_STACK_SIZE)) / float64(numThreads)))
-	stackPtrPoolBaseSize := math.Ceil(4 * ((float64(rawInputSize) / avgCharsPerToken) / float64(_STACK_PTR_SIZE)) / float64(numThreads))
+	stackPoolBaseSize := 2 * math.Ceil(4*(((float64(rawInputSize)/avgCharsPerToken)/float64(_STACK_SIZE))/float64(numThreads)))
+	stackPtrPoolBaseSize := 2 * math.Ceil(4*((float64(rawInputSize)/avgCharsPerToken)/float64(_STACK_PTR_SIZE))/float64(numThreads))
 
 	//Stats.StackPoolSize = stackPoolSize
 	//Stats.StackPtrPoolSize = stackPtrPoolSize
