@@ -1,7 +1,7 @@
 package arithmetic_impro
 
 import (
-	"fmt"
+	"log"
 )
 
 /*
@@ -28,7 +28,7 @@ It is NOT thread-safe.
 */
 func (p *stackPool) Get() *stack {
 	if p.cur >= len(p.pool) {
-		fmt.Println("Allocating a new stack!")
+		log.Println("Allocating a new stack!")
 		return new(stack)
 	}
 	addr := &p.pool[p.cur]

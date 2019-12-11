@@ -4,17 +4,17 @@ const _NUM_NONTERMINALS = 5
 const _NUM_TERMINALS = 6
 
 const (
-	E_F_S_T = iota
-	E_S = iota
-	E_S_T = iota
+	E_F_S_T   = iota
+	E_S       = iota
+	E_S_T     = iota
 	NEW_AXIOM = iota
-	_EMPTY = iota
-	LPAR = 0x8000 + iota - _NUM_NONTERMINALS
-	NUMBER = 0x8000 + iota - _NUM_NONTERMINALS
-	PLUS = 0x8000 + iota - _NUM_NONTERMINALS
-	RPAR = 0x8000 + iota - _NUM_NONTERMINALS
-	TIMES = 0x8000 + iota - _NUM_NONTERMINALS
-	_TERM = 0x8000 + iota - _NUM_NONTERMINALS
+	_EMPTY    = iota
+	LPAR      = 0x8000 + iota - _NUM_NONTERMINALS
+	NUMBER    = 0x8000 + iota - _NUM_NONTERMINALS
+	PLUS      = 0x8000 + iota - _NUM_NONTERMINALS
+	RPAR      = 0x8000 + iota - _NUM_NONTERMINALS
+	TIMES     = 0x8000 + iota - _NUM_NONTERMINALS
+	_TERM     = 0x8000 + iota - _NUM_NONTERMINALS
 )
 
 func tokenValue(token uint16) uint16 {

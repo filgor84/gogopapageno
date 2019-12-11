@@ -1,7 +1,6 @@
 package arithmetic_impro
 
 import (
-	"fmt"
 	"testing"
 )
 
@@ -12,14 +11,15 @@ const (
 )
 
 func parseTestFile(b *testing.B, fileName string, thread_n int, exp_res int64) {
-	root, err := ParseFile(fileName, thread_n)
-	if err != nil {
-		b.Errorf("unexpected error: %v", err)
-	} else {
-		res := *root.Value.(*int64)
-		fmt.Printf("Analisys of file %s gave result: %d\n", fileName, res)
-		if res != exp_res {
-			b.Errorf("True res: %d\nCalculated res: %d\n", exp_res, res)
+	for i := 0; i < b.N; i++ {
+		root, err := ParseFile(fileName, thread_n)
+		if err != nil {
+			b.Errorf("unexpected error: %v", err)
+		} else {
+			res := *root.Value.(*int64)
+			if res != exp_res {
+				b.Errorf("True res: %d\nCalculated res: %d\n", exp_res, res)
+			}
 		}
 	}
 
@@ -33,10 +33,6 @@ func Benchmark1MB(b *testing.B) {
 	parseTestFile(b, "data/1MB.txt", 1, ONE_MB)
 }
 
-func Benchmark10MB4T(b *testing.B) {
-	parseTestFile(b, "data/10MB.txt", 4, TEN_MB)
-}
-
 func Benchmark10MB1T(b *testing.B) {
 	parseTestFile(b, "data/10MB.txt", 1, TEN_MB)
 
@@ -47,7 +43,24 @@ func Benchmark10MB2T(b *testing.B) {
 
 }
 
+func Benchmark10MB4T(b *testing.B) {
+	parseTestFile(b, "data/10MB.txt", 4, TEN_MB)
+}
+
 func Benchmark10MB8T(b *testing.B) {
 	parseTestFile(b, "data/10MB.txt", 8, TEN_MB)
+}
 
+func Benchmark10MB16T(b *testing.B) {
+	parseTestFile(b, "data/10MB.txt", 16, TEN_MB)
+}
+
+func Benchmark10MB32T(b *testing.B) {
+	parseTestFile(b, "data/10MB.txt", 32, TEN_MB)
+}
+func Benchmark10MB64T(b *testing.B) {
+	parseTestFile(b, "data/10MB.txt", 64, TEN_MB)
+}
+func Benchmark10MB128T(b *testing.B) {
+	parseTestFile(b, "data/10MB.txt", 128, TEN_MB)
 }

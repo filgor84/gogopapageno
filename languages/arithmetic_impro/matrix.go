@@ -16,11 +16,12 @@ var _PREC_MATRIX [][]uint16 = [][]uint16{
 	[]uint16{_YI, _YI, _TA, _TA, _TA, _TA},
 	[]uint16{_YI, _YI, _YI, _YI, _YI, _EQ},
 }
+
 /*
 The packed precedence matrix
 */
 var _PREC_MATRIX_BITPACKED []uint64 = []uint64{
-	765799921477154880, 64, 
+	765799921477154880, 64,
 }
 
 /*

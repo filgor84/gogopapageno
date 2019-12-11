@@ -8,6 +8,7 @@ import (
 	"os"
 	"runtime"
 	"runtime/pprof"
+	"time"
 )
 
 var cpuprofile = flag.String("cpuprofile", "", "") //write cpu profile to file")
@@ -48,8 +49,10 @@ func main() {
 	fmt.Println("Available cores:", runtime.GOMAXPROCS(0))
 
 	fmt.Println("Number of threads:", *numThreads)
+	start:=time.Now()
 
 	root, err := arithmetic_impro.ParseFile(*fname, *numThreads)
+	total_time:=time.Since(start)
 
 	if err == nil {
 		fmt.Println("Parse succeded!")
@@ -101,6 +104,7 @@ func main() {
 		fmt.Printf("Remaining stackPtrs final pass: %d\n\n", arithmetic_impro.Stats.RemainingStackPtrsFinalPass)
 
 		fmt.Printf("Result: %d\n", *root.Value.(*int64))
+		fmt.Printf("Total execution time: %d\n", total_time)
 	} else {
 		fmt.Println("Parse failed!")
 		fmt.Println(err.Error())

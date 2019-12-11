@@ -1,0 +1,15 @@
+goos: linux
+goarch: amd64
+pkg: gogopapageno/languages/arithmetic_impro
+BenchmarkSmall-128        	     200	   5949923 ns/op	11536242 B/op	      40 allocs/op
+Benchmark1MB-128          	      10	 116279432 ns/op	126577976 B/op	      40 allocs/op
+Benchmark10MB1T-128       	       1	1025140498 ns/op	1224177600 B/op	     137 allocs/op
+Benchmark10MB2T-128       	       2	 769171327 ns/op	1310092912 B/op	      78 allocs/op
+Benchmark10MB4T-128       	       2	 913441071 ns/op	1331136004 B/op	      89 allocs/op
+Benchmark10MB8T-128       	       2	 764238157 ns/op	1342700712 B/op	     141 allocs/op
+Benchmark10MB16T-128      	       2	 691902056 ns/op	1333472804 B/op	     257 allocs/op
+Benchmark10MB32T-128      	       2	 667847552 ns/op	1317099184 B/op	     475 allocs/op
+Benchmark10MB64T-128      	       2	 608972049 ns/op	1418599668 B/op	     944 allocs/op
+Benchmark10MB128T-128     	       2	 653388009 ns/op	1620022016 B/op	    1883 allocs/op
+PASS
+ok  	gogopapageno/languages/arithmetic_impro	19.534s

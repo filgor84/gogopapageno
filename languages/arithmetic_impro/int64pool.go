@@ -1,5 +1,7 @@
 package arithmetic_impro
 
+import "log"
+
 /*
 int64Pool allows to preallocate elements with type int64.
 It is not thread-safe, you have to create one for each thread.
@@ -27,10 +29,10 @@ Get gets an item from the pool if available, otherwise it initializes a new one.
 It is NOT thread-safe.
 */
 func (p *int64Pool) Get() *int64 {
-	/*if p.cur >= len(p.pool) {
-		fmt.Print("Warning!")
+	if p.cur >= len(p.pool) {
+		log.Print("Warning!")
 		return new(int64)
-	}*/
+	}
 	addr := &p.pool[p.cur]
 	p.cur++
 	return addr
