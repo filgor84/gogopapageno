@@ -13,3 +13,18 @@ Benchmark10MB64T-128      	       2	 608972049 ns/op	1418599668 B/op	     944 al
 Benchmark10MB128T-128     	       2	 653388009 ns/op	1620022016 B/op	    1883 allocs/op
 PASS
 ok  	gogopapageno/languages/arithmetic_impro	19.534s
+goos: linux
+goarch: amd64
+pkg: gogopapageno/languages/arithmetic_impro
+BenchmarkSmall-128        	     300	   5679955 ns/op	11536269 B/op	      40 allocs/op
+Benchmark1MB-128          	      10	 118612334 ns/op	126576849 B/op	      40 allocs/op
+Benchmark10MB1T-128       	       2	 921271514 ns/op	1224137284 B/op	      76 allocs/op
+Benchmark10MB2T-128       	       2	1097629686 ns/op	1310103528 B/op	      77 allocs/op
+Benchmark10MB4T-128       	       2	 784761231 ns/op	1331130552 B/op	      90 allocs/op
+Benchmark10MB8T-128       	       2	 587516747 ns/op	1342703332 B/op	     149 allocs/op
+Benchmark10MB16T-128      	       2	 524264735 ns/op	1333466436 B/op	     253 allocs/op
+Benchmark10MB32T-128      	       2	 554623468 ns/op	1317102076 B/op	     486 allocs/op
+Benchmark10MB64T-128      	       3	 479118899 ns/op	1418593549 B/op	     936 allocs/op
+Benchmark10MB128T-128     	       2	 567710115 ns/op	1619998312 B/op	    1836 allocs/op
+PASS
+ok  	gogopapageno/languages/arithmetic_impro	22.311s

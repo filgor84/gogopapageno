@@ -104,7 +104,7 @@ func main() {
 		fmt.Printf("Remaining stackPtrs final pass: %d\n\n", arithmetic_impro.Stats.RemainingStackPtrsFinalPass)
 
 		fmt.Printf("Result: %d\n", *root.Value.(*int64))
-		fmt.Printf("Total execution time: %d\n", total_time)
+		fmt.Printf("Total execution time: %f secs\n", float64(total_time)/1000000000.0)
 	} else {
 		fmt.Println("Parse failed!")
 		fmt.Println(err.Error())
