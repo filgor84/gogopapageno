@@ -7,7 +7,6 @@ import (
 	"log"
 	"math"
 	"os"
-	"runtime"
 	"runtime/pprof"
 	"time"
 )
@@ -304,7 +303,7 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 
 	parserPreallocMem(rawInputSize, numThreads)
 
-	runtime.GC()
+	//runtime.GC()
 
 	Stats.AllocMemTime = time.Since(start)
 
