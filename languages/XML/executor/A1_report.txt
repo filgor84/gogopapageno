@@ -1,0 +1,261 @@
+goos: linux
+goarch: amd64
+BenchmarkExecutor/A1/1-workers-128         	       5	16461031106 ns/op	4497659736 B/op	97961646 allocs/op
+--- BENCH: BenchmarkExecutor/A1/1-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/2-workers-128         	       5	13129701104 ns/op	4557495736 B/op	97961806 allocs/op
+--- BENCH: BenchmarkExecutor/A1/2-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/3-workers-128         	      10	11604764302 ns/op	4557593571 B/op	97961948 allocs/op
+--- BENCH: BenchmarkExecutor/A1/3-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/4-workers-128         	      10	11040239531 ns/op	4553479785 B/op	97962027 allocs/op
+--- BENCH: BenchmarkExecutor/A1/4-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/5-workers-128         	      10	10906474173 ns/op	4564074329 B/op	97962151 allocs/op
+--- BENCH: BenchmarkExecutor/A1/5-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/6-workers-128         	      10	10888603258 ns/op	4566257641 B/op	97962360 allocs/op
+--- BENCH: BenchmarkExecutor/A1/6-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/7-workers-128         	      10	11078959858 ns/op	4557946768 B/op	97962472 allocs/op
+--- BENCH: BenchmarkExecutor/A1/7-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/8-workers-128         	      10	10943704466 ns/op	4565340284 B/op	97962544 allocs/op
+--- BENCH: BenchmarkExecutor/A1/8-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/9-workers-128         	      10	11201877151 ns/op	4565354856 B/op	97962717 allocs/op
+--- BENCH: BenchmarkExecutor/A1/9-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/10-workers-128        	      10	10974643227 ns/op	4563423937 B/op	97962774 allocs/op
+--- BENCH: BenchmarkExecutor/A1/10-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/11-workers-128        	      10	10929427089 ns/op	4567637368 B/op	97962953 allocs/op
+--- BENCH: BenchmarkExecutor/A1/11-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/12-workers-128        	      10	11132212104 ns/op	4565569904 B/op	97963046 allocs/op
+--- BENCH: BenchmarkExecutor/A1/12-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/13-workers-128        	      10	10891953868 ns/op	4568726529 B/op	97963128 allocs/op
+--- BENCH: BenchmarkExecutor/A1/13-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/14-workers-128        	      10	11339948266 ns/op	4573999035 B/op	97963202 allocs/op
+--- BENCH: BenchmarkExecutor/A1/14-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/15-workers-128        	recovered from threadJob error: Invalid element construction      10	11197711460 ns/op	4477473728 B/op	96320531 allocs/op
+--- BENCH: BenchmarkExecutor/A1/15-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/16-workers-128        	      10	11320617397 ns/op	4576236984 B/op	97963339 allocs/op
+--- BENCH: BenchmarkExecutor/A1/16-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/17-workers-128        	      10	11431898535 ns/op	4555283561 B/op	97963341 allocs/op
+--- BENCH: BenchmarkExecutor/A1/17-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/18-workers-128        	      10	11419372204 ns/op	4565815268 B/op	97963478 allocs/op
+--- BENCH: BenchmarkExecutor/A1/18-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/19-workers-128        	      10	11221523776 ns/op	4555357987 B/op	97963578 allocs/op
+--- BENCH: BenchmarkExecutor/A1/19-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/20-workers-128        	      10	11125908952 ns/op	4556487798 B/op	97963615 allocs/op
+--- BENCH: BenchmarkExecutor/A1/20-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/21-workers-128        	      10	11081175326 ns/op	4556514104 B/op	97963608 allocs/op
+--- BENCH: BenchmarkExecutor/A1/21-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/22-workers-128        	recovered from threadJob error: Invalid element construction      10	11216598536 ns/op	4499598352 B/op	95917481 allocs/op
+--- BENCH: BenchmarkExecutor/A1/22-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/23-workers-128        	      10	11464207509 ns/op	4589173348 B/op	97963771 allocs/op
+--- BENCH: BenchmarkExecutor/A1/23-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/24-workers-128        	      10	11418606766 ns/op	4573464875 B/op	97963764 allocs/op
+--- BENCH: BenchmarkExecutor/A1/24-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/25-workers-128        	      10	11646698392 ns/op	4613320064 B/op	97963745 allocs/op
+--- BENCH: BenchmarkExecutor/A1/25-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/26-workers-128        	      10	11813122641 ns/op	4566176400 B/op	97963886 allocs/op
+--- BENCH: BenchmarkExecutor/A1/26-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/27-workers-128        	      10	11369579125 ns/op	4599745844 B/op	97963895 allocs/op
+--- BENCH: BenchmarkExecutor/A1/27-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/28-workers-128        	      10	11483875169 ns/op	4574633500 B/op	97964070 allocs/op
+--- BENCH: BenchmarkExecutor/A1/28-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/29-workers-128        	      10	11648499603 ns/op	4604009339 B/op	97964089 allocs/op
+--- BENCH: BenchmarkExecutor/A1/29-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/30-workers-128        	recovered from threadJob error: Invalid element construction      10	11356897739 ns/op	4480538205 B/op	96051761 allocs/op
+--- BENCH: BenchmarkExecutor/A1/30-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/31-workers-128        	      10	11619058646 ns/op	4601167704 B/op	97964094 allocs/op
+--- BENCH: BenchmarkExecutor/A1/31-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/32-workers-128        	recovered from threadJob error: Invalid element construction      10	11367222286 ns/op	4532307609 B/op	95940773 allocs/op
+--- BENCH: BenchmarkExecutor/A1/32-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/33-workers-128        	      10	11852740521 ns/op	4586569188 B/op	97964241 allocs/op
+--- BENCH: BenchmarkExecutor/A1/33-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/34-workers-128        	      10	11534835152 ns/op	4614883689 B/op	97964287 allocs/op
+--- BENCH: BenchmarkExecutor/A1/34-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/35-workers-128        	      10	11633608893 ns/op	4639027596 B/op	97964282 allocs/op
+--- BENCH: BenchmarkExecutor/A1/35-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/36-workers-128        	      10	11413737456 ns/op	4591793067 B/op	97964438 allocs/op
+--- BENCH: BenchmarkExecutor/A1/36-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/37-workers-128        	recovered from threadJob error: Invalid element construction      10	11463032178 ns/op	4511535586 B/op	95838391 allocs/op
+--- BENCH: BenchmarkExecutor/A1/37-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/38-workers-128        	      10	11626034832 ns/op	4641224960 B/op	97964444 allocs/op
+--- BENCH: BenchmarkExecutor/A1/38-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/39-workers-128        	      10	11782205084 ns/op	4665346268 B/op	97964335 allocs/op
+--- BENCH: BenchmarkExecutor/A1/39-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/40-workers-128        	      10	11532537588 ns/op	4556350961 B/op	97964562 allocs/op
+--- BENCH: BenchmarkExecutor/A1/40-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/41-workers-128        	      10	11552096843 ns/op	4583617208 B/op	97964585 allocs/op
+--- BENCH: BenchmarkExecutor/A1/41-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/42-workers-128        	      10	11580023902 ns/op	4599383913 B/op	97964614 allocs/op
+--- BENCH: BenchmarkExecutor/A1/42-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/43-workers-128        	      10	11638643892 ns/op	4626576697 B/op	97964666 allocs/op
+--- BENCH: BenchmarkExecutor/A1/43-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/44-workers-128        	      10	11600585493 ns/op	4647674499 B/op	97964576 allocs/op
+--- BENCH: BenchmarkExecutor/A1/44-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/45-workers-128        	      10	11749033184 ns/op	4566978291 B/op	97964858 allocs/op
+--- BENCH: BenchmarkExecutor/A1/45-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/46-workers-128        	      10	11781860534 ns/op	4589046795 B/op	97964848 allocs/op
+--- BENCH: BenchmarkExecutor/A1/46-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/47-workers-128        	      10	11850196523 ns/op	4607931022 B/op	97964779 allocs/op
+--- BENCH: BenchmarkExecutor/A1/47-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/48-workers-128        	      10	11710293557 ns/op	4628925376 B/op	97964810 allocs/op
+--- BENCH: BenchmarkExecutor/A1/48-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/49-workers-128        	      10	11610386434 ns/op	4645761099 B/op	97964857 allocs/op
+--- BENCH: BenchmarkExecutor/A1/49-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/50-workers-128        	      10	11734474847 ns/op	4666731457 B/op	97964751 allocs/op
+--- BENCH: BenchmarkExecutor/A1/50-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/51-workers-128        	      10	11544130129 ns/op	4575560318 B/op	97965038 allocs/op
+--- BENCH: BenchmarkExecutor/A1/51-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/52-workers-128        	      10	11620317704 ns/op	4591263153 B/op	97964985 allocs/op
+--- BENCH: BenchmarkExecutor/A1/52-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/53-workers-128        	      10	11678677267 ns/op	4611212886 B/op	97965033 allocs/op
+--- BENCH: BenchmarkExecutor/A1/53-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/54-workers-128        	      10	11671412366 ns/op	4624915361 B/op	97964992 allocs/op
+--- BENCH: BenchmarkExecutor/A1/54-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/55-workers-128        	      10	11656678689 ns/op	4642722219 B/op	97965011 allocs/op
+--- BENCH: BenchmarkExecutor/A1/55-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/56-workers-128        	      10	11809877959 ns/op	4662658278 B/op	97964970 allocs/op
+--- BENCH: BenchmarkExecutor/A1/56-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/57-workers-128        	      10	11598706078 ns/op	4678443299 B/op	97964939 allocs/op
+--- BENCH: BenchmarkExecutor/A1/57-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/58-workers-128        	      10	11625902559 ns/op	4697321675 B/op	97964641 allocs/op
+--- BENCH: BenchmarkExecutor/A1/58-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/59-workers-128        	      10	11819626359 ns/op	4700479689 B/op	97964506 allocs/op
+--- BENCH: BenchmarkExecutor/A1/59-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/60-workers-128        	      10	11505017565 ns/op	4586233553 B/op	97965199 allocs/op
+--- BENCH: BenchmarkExecutor/A1/60-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/61-workers-128        	      10	11668352408 ns/op	4603072115 B/op	97965240 allocs/op
+--- BENCH: BenchmarkExecutor/A1/61-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/62-workers-128        	      10	11712856119 ns/op	4615663044 B/op	97965279 allocs/op
+--- BENCH: BenchmarkExecutor/A1/62-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/63-workers-128        	      10	11215958843 ns/op	4635622980 B/op	97965320 allocs/op
+--- BENCH: BenchmarkExecutor/A1/63-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+BenchmarkExecutor/A1/64-workers-128        	      10	11636912546 ns/op	4652439707 B/op	97965267 allocs/op
+--- BENCH: BenchmarkExecutor/A1/64-workers-128
+    main_test.go:42: number of matches: 4042
+    main_test.go:42: number of matches: 4042
+PASS
+ok  	command-line-arguments	8106.379s
