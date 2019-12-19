@@ -8,6 +8,7 @@ import (
 	"math"
 	"os"
 	"runtime/pprof"
+	"sync"
 	"time"
 )
 
@@ -321,23 +322,26 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 		fmt.Printf("The number of lexing threads was reduced to %d.\n", numLexThreads)
 	}
 
-	lexC := make(chan lexResult)
-
-	for i := 0; i < numLexThreads; i++ {
-		go lex(i, str[cutPoints[i]:cutPoints[i+1]], stackPools[i], lexC)
-	}
-
+	//lexC := make(chan lexResult)
+	//change channel to waitgroup for better parallelism
+	var waitgroup sync.WaitGroup
+	waitgroup.Add(numLexThreads)
 	lexResults := make([]lexResult, numLexThreads)
-
 	for i := 0; i < numLexThreads; i++ {
-		curLexResult := <-lexC
-		lexResults[curLexResult.threadNum] = curLexResult
-
-		if !curLexResult.success {
-			Stats.LexTimeTotal = time.Since(start)
-			return nil, errors.New("Lexing error")
-		}
+		go lex(i, str[cutPoints[i]:cutPoints[i+1]], stackPools[i], &(lexResults[i]), &waitgroup)
 	}
+	waitgroup.Wait()
+	/*
+		for i := 0; i < numLexThreads; i++ {
+			curLexResult := <-lexC
+			lexResults[curLexResult.threadNum] = curLexResult
+
+			if !curLexResult.success {
+				Stats.LexTimeTotal = time.Since(start)
+				return nil, errors.New("Lexing error")
+			}
+		}
+	*/
 
 	input := lexResults[0].tokenList
 
