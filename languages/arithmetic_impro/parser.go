@@ -67,7 +67,7 @@ type lexResult struct {
 threadJob is the parsing function executed in parallel by each thread.
 It takes as input a threadContext and a channel where it eventually sends the result.
 */
-func threadJob(numThreads int, threadNum int, finalPass bool, input *listOfStacks, nextSym *symbol, stackPool *stackPool, stackPtrPool *stackPtrPool, c chan parseResult) {
+func threadJob(numThreads int, threadNum int, finalPass bool, input *listOfStacks, nextSym *symbol, stackPool *stackPool, stackPtrPool *stackPtrPool, c *parseResult, waitParse *sync.WaitGroup) {
 	start := time.Now()
 
 	inputIterator := input.HeadIterator()
@@ -199,7 +199,8 @@ func threadJob(numThreads int, threadNum int, finalPass bool, input *listOfStack
 					}
 					fmt.Println()*/
 
-					c <- parseResult{threadNum, nil, true}
+					*c = parseResult{threadNum, nil, true}
+					waitParse.Done()
 
 					return
 				}
@@ -229,19 +230,21 @@ func threadJob(numThreads int, threadNum int, finalPass bool, input *listOfStack
 		case _NO_PREC:
 			//fmt.Printf("Error, no precedence relation between %s and %s\n", TokenToString(firstTerminal.Token), TokenToString(inputSym.Token))
 
-			c <- parseResult{threadNum, nil, true}
+			*c = parseResult{threadNum, nil, true}
+			waitParse.Done()
 
 			return
 		}
 	}
 
-	c <- parseResult{threadNum, &stack, true}
+	*c = parseResult{threadNum, &stack, true}
 
 	if !finalPass {
 		Stats.ParseTimes[threadNum] = time.Since(start)
 	} else {
 		Stats.ParseTimeFinalPass = time.Since(start)
 	}
+	waitParse.Done()
 }
 
 var cpuprofileFile *os.File = nil
@@ -324,13 +327,13 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 
 	//lexC := make(chan lexResult)
 	//change channel to waitgroup for better parallelism
-	var waitgroup sync.WaitGroup
-	waitgroup.Add(numLexThreads)
+	var waitLex sync.WaitGroup
+	waitLex.Add(numLexThreads)
 	lexResults := make([]lexResult, numLexThreads)
 	for i := 0; i < numLexThreads; i++ {
-		go lex(i, str[cutPoints[i]:cutPoints[i+1]], stackPools[i], &(lexResults[i]), &waitgroup)
+		go lex(i, str[cutPoints[i]:cutPoints[i+1]], stackPools[i], &(lexResults[i]), &waitLex)
 	}
-	waitgroup.Wait()
+	waitLex.Wait()
 	/*
 		for i := 0; i < numLexThreads; i++ {
 			curLexResult := <-lexC
@@ -395,8 +398,11 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 	}
 
 	parseResults := make([]parseResult, numThreads)
+	var waitParse sync.WaitGroup
+	waitParse.Add(numThreads)
 
-	c := make(chan parseResult)
+	//Substituting chan with WaitGroup
+	//c := make(chan parseResult)
 
 	//Create the thread contexts and run the threads
 	for i := 0; i < numThreads; i++ {
@@ -412,7 +418,7 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 			nextSym = nextInputListIter.Next()
 		}
 
-		go threadJob(numThreads, i, false, &inputLists[i], nextSym, stackPoolsNewNonterminals[i], stackPtrPools[i], c)
+		go threadJob(numThreads, i, false, &inputLists[i], nextSym, stackPoolsNewNonterminals[i], stackPtrPools[i], &(parseResults[i]), &waitParse)
 
 		/*threadContexts[i] = <-c
 
@@ -428,7 +434,7 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 	}
 
 	//Wait for each thread to finish its job
-	for i := 0; i < numThreads; i++ {
+	/*for i := 0; i < numThreads; i++ {
 		curParseResults := <-c
 
 		parseResults[curParseResults.threadNum] = curParseResults
@@ -444,11 +450,12 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 			return nil, errors.New("Parsing error")
 		}
 	}
-
+	*/
 	//Stats.RemainingStacks = stackPool.Remainder()
 	//Stats.RemainingStackPtrs = stackPtrPool.Remainder()
 
 	//If the number of threads is greater than one, a final pass is required
+	waitParse.Wait()
 	if numThreads > 1 {
 		startRecombiningStacks := time.Now()
 		//Create the final input by joining together the stacks from the previous step
@@ -469,11 +476,12 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 		//finalPassThreadContext.input.Println()
 		//fmt.Print("Final pass thread stack: ")
 		//finalPassThreadContext.stack.Println()
+		var finalPassParseResult parseResult
+		var finalWait sync.WaitGroup
+		finalWait.Add(1)
 
-		go threadJob(1, 0, true, &finalPassInput, nil, stackPoolNewNonterminalsFinalPass, stackPtrPoolFinalPass, c)
-
-		finalPassParseResult := <-c
-
+		go threadJob(1, 0, true, &finalPassInput, nil, stackPoolNewNonterminalsFinalPass, stackPtrPoolFinalPass, &finalPassParseResult, &finalWait)
+		finalWait.Wait()
 		//fmt.Println("Final thread finished parsing")
 		//fmt.Println("Result:", finalPassThreadContext.result)
 		//fmt.Print("Final stack: ")
