@@ -5,8 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/simoneguidi94/gopapageno/languages/XML"
-
+	"github.com/filgor84/gogopapageno/languages/XML"
 )
 
 const fileToParsePath = "./data/small.1.xml"
