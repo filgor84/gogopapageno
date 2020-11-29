@@ -1,0 +1,49 @@
+goos: linux
+goarch: amd64
+BenchmarkExecutor/A2/1-workers-128         	       3	58682433161 ns/op	23108092330 B/op	397229067 allocs/op
+--- BENCH: BenchmarkExecutor/A2/1-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/2-workers-128         	       3	45964470709 ns/op	23167284909 B/op	397227455 allocs/op
+--- BENCH: BenchmarkExecutor/A2/2-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/3-workers-128         	       3	43477175585 ns/op	23167538845 B/op	397228152 allocs/op
+--- BENCH: BenchmarkExecutor/A2/3-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/4-workers-128         	       3	46638954729 ns/op	23163207597 B/op	397227567 allocs/op
+--- BENCH: BenchmarkExecutor/A2/4-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/5-workers-128         	       3	49525530409 ns/op	23174130338 B/op	397228589 allocs/op
+--- BENCH: BenchmarkExecutor/A2/5-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/6-workers-128         	       3	44154474464 ns/op	23176436568 B/op	397229166 allocs/op
+--- BENCH: BenchmarkExecutor/A2/6-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/7-workers-128         	       3	48316383801 ns/op	23167940136 B/op	397228769 allocs/op
+--- BENCH: BenchmarkExecutor/A2/7-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/8-workers-128         	       3	50643393349 ns/op	23175643736 B/op	397229554 allocs/op
+--- BENCH: BenchmarkExecutor/A2/8-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/9-workers-128         	       3	52935014862 ns/op	23175539768 B/op	397229484 allocs/op
+--- BENCH: BenchmarkExecutor/A2/9-workers-128
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+    main_test.go:42: number of matches: 12527
+BenchmarkExecutor/A2/10-workers-128        	signal: terminated
+FAIL	command-line-arguments	2942.224s

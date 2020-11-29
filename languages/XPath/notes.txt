@@ -1,0 +1,9 @@
+
+Dal main eseguo:
+command := XML.Execute(*q).AgainstFile(*f).WithNumberOfThreads(*n)
+results, err := command.Go()
+
+dove command è un istanza di ExecutorCommand
+
+
+

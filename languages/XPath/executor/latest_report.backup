@@ -1,0 +1,1732 @@
+goos: linux
+goarch: amd64
+BenchmarkExecutor/A1/1-workers-128         	       1	15414855429 ns/op	4061856624 B/op	88080816 allocs/op
+--- BENCH: BenchmarkExecutor/A1/1-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/2-workers-128         	       1	11035965917 ns/op	4121866480 B/op	88081080 allocs/op
+--- BENCH: BenchmarkExecutor/A1/2-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/3-workers-128         	       1	10784439856 ns/op	4122119216 B/op	88081047 allocs/op
+--- BENCH: BenchmarkExecutor/A1/3-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/4-workers-128         	       1	9959731875 ns/op	4118177296 B/op	88081246 allocs/op
+--- BENCH: BenchmarkExecutor/A1/4-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/5-workers-128         	       1	9289989501 ns/op	4128937120 B/op	88081380 allocs/op
+--- BENCH: BenchmarkExecutor/A1/5-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/6-workers-128         	       1	9844663721 ns/op	4131274528 B/op	88081558 allocs/op
+--- BENCH: BenchmarkExecutor/A1/6-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/7-workers-128         	       1	10037853005 ns/op	4123081176 B/op	88081407 allocs/op
+--- BENCH: BenchmarkExecutor/A1/7-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/8-workers-128         	       1	10058240758 ns/op	4130642488 B/op	88081455 allocs/op
+--- BENCH: BenchmarkExecutor/A1/8-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/9-workers-128         	       1	10105298145 ns/op	4130846416 B/op	88081620 allocs/op
+--- BENCH: BenchmarkExecutor/A1/9-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/10-workers-128        	       1	9752303339 ns/op	4129046368 B/op	88081810 allocs/op
+--- BENCH: BenchmarkExecutor/A1/10-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/11-workers-128        	       1	10411847892 ns/op	4133468912 B/op	88081978 allocs/op
+--- BENCH: BenchmarkExecutor/A1/11-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/12-workers-128        	       1	10229485642 ns/op	4131547344 B/op	88081958 allocs/op
+--- BENCH: BenchmarkExecutor/A1/12-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/13-workers-128        	       1	11440327713 ns/op	4134861328 B/op	88082416 allocs/op
+--- BENCH: BenchmarkExecutor/A1/13-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/14-workers-128        	       1	10585661872 ns/op	4140332016 B/op	88082524 allocs/op
+--- BENCH: BenchmarkExecutor/A1/14-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/15-workers-128        	       1	11179653685 ns/op	4121779360 B/op	88082908 allocs/op
+--- BENCH: BenchmarkExecutor/A1/15-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/16-workers-128        	       1	11668138532 ns/op	4142867424 B/op	88082003 allocs/op
+--- BENCH: BenchmarkExecutor/A1/16-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/17-workers-128        	       1	11092204333 ns/op	4122135920 B/op	88082146 allocs/op
+--- BENCH: BenchmarkExecutor/A1/17-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/18-workers-128        	       1	9768362215 ns/op	4132771376 B/op	88082165 allocs/op
+--- BENCH: BenchmarkExecutor/A1/18-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/19-workers-128        	       1	10787065151 ns/op	4122475808 B/op	88082328 allocs/op
+--- BENCH: BenchmarkExecutor/A1/19-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/20-workers-128        	       1	10465266047 ns/op	4123868144 B/op	88082320 allocs/op
+--- BENCH: BenchmarkExecutor/A1/20-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/21-workers-128        	       1	11176177697 ns/op	4124031744 B/op	88082319 allocs/op
+--- BENCH: BenchmarkExecutor/A1/21-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/22-workers-128        	       1	11244674408 ns/op	4164040064 B/op	88082408 allocs/op
+--- BENCH: BenchmarkExecutor/A1/22-workers-128
+    main_test.go:49: number of matches: 4042
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/A1/23-workers-128        	       1	8676359653 ns/op	3245093456 B/op	68886216 allocs/op
+--- BENCH: BenchmarkExecutor/A1/23-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A1/24-workers-128        	       1	10920828616 ns/op	4141454592 B/op	88083324 allocs/op
+--- BENCH: BenchmarkExecutor/A1/24-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/25-workers-128        	       1	11007985450 ns/op	4181481984 B/op	88082559 allocs/op
+--- BENCH: BenchmarkExecutor/A1/25-workers-128
+    main_test.go:49: number of matches: 4042
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/A1/26-workers-128        	       1	8796496714 ns/op	3258453744 B/op	69678705 allocs/op
+--- BENCH: BenchmarkExecutor/A1/26-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A1/27-workers-128        	       1	11386419681 ns/op	4168260208 B/op	88082735 allocs/op
+--- BENCH: BenchmarkExecutor/A1/27-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/28-workers-128        	       1	10815384299 ns/op	4143208096 B/op	88082764 allocs/op
+--- BENCH: BenchmarkExecutor/A1/28-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/29-workers-128        	       1	11414824879 ns/op	4172763312 B/op	88082854 allocs/op
+--- BENCH: BenchmarkExecutor/A1/29-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/30-workers-128        	       1	10873326458 ns/op	4140652816 B/op	88082795 allocs/op
+--- BENCH: BenchmarkExecutor/A1/30-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/31-workers-128        	       1	11244067702 ns/op	4170304256 B/op	88082966 allocs/op
+--- BENCH: BenchmarkExecutor/A1/31-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/32-workers-128        	       1	11118602619 ns/op	4197681024 B/op	88082750 allocs/op
+--- BENCH: BenchmarkExecutor/A1/32-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/33-workers-128        	       1	11258414666 ns/op	4155922752 B/op	88083036 allocs/op
+--- BENCH: BenchmarkExecutor/A1/33-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/34-workers-128        	       1	10825806824 ns/op	4184419088 B/op	88082845 allocs/op
+--- BENCH: BenchmarkExecutor/A1/34-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/35-workers-128        	       1	10741013573 ns/op	4208699904 B/op	88082967 allocs/op
+--- BENCH: BenchmarkExecutor/A1/35-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/36-workers-128        	       1	9968228143 ns/op	4161764544 B/op	88083122 allocs/op
+--- BENCH: BenchmarkExecutor/A1/36-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/37-workers-128        	       1	11456959444 ns/op	4181895008 B/op	88083083 allocs/op
+--- BENCH: BenchmarkExecutor/A1/37-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/38-workers-128        	       1	10960497738 ns/op	4211530336 B/op	88083104 allocs/op
+--- BENCH: BenchmarkExecutor/A1/38-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/39-workers-128        	       1	11985348052 ns/op	4235773840 B/op	88083147 allocs/op
+--- BENCH: BenchmarkExecutor/A1/39-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/40-workers-128        	       1	11433949985 ns/op	4126912624 B/op	88083591 allocs/op
+--- BENCH: BenchmarkExecutor/A1/40-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/41-workers-128        	       1	11357830129 ns/op	4154338016 B/op	88083303 allocs/op
+--- BENCH: BenchmarkExecutor/A1/41-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/42-workers-128        	       1	11186353858 ns/op	4170367520 B/op	88083257 allocs/op
+--- BENCH: BenchmarkExecutor/A1/42-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/43-workers-128        	       1	11558780545 ns/op	4197746128 B/op	88083215 allocs/op
+--- BENCH: BenchmarkExecutor/A1/43-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/44-workers-128        	       1	11391262207 ns/op	4218827648 B/op	88083497 allocs/op
+--- BENCH: BenchmarkExecutor/A1/44-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/45-workers-128        	       1	10900124920 ns/op	4138439536 B/op	88083598 allocs/op
+--- BENCH: BenchmarkExecutor/A1/45-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/46-workers-128        	       1	11246407277 ns/op	4160638352 B/op	88083694 allocs/op
+--- BENCH: BenchmarkExecutor/A1/46-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/47-workers-128        	       1	11693079244 ns/op	4179569408 B/op	88083736 allocs/op
+--- BENCH: BenchmarkExecutor/A1/47-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/48-workers-128        	       1	11433062415 ns/op	4200785504 B/op	88083506 allocs/op
+--- BENCH: BenchmarkExecutor/A1/48-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/49-workers-128        	       1	11521406890 ns/op	4217753584 B/op	88083574 allocs/op
+--- BENCH: BenchmarkExecutor/A1/49-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/50-workers-128        	       1	11662245327 ns/op	4238894416 B/op	88083430 allocs/op
+--- BENCH: BenchmarkExecutor/A1/50-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/51-workers-128        	       1	11926353580 ns/op	4147886496 B/op	88084052 allocs/op
+--- BENCH: BenchmarkExecutor/A1/51-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/52-workers-128        	       1	11362480356 ns/op	4163779808 B/op	88083836 allocs/op
+--- BENCH: BenchmarkExecutor/A1/52-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/53-workers-128        	       1	11298704128 ns/op	4183968912 B/op	88084065 allocs/op
+--- BENCH: BenchmarkExecutor/A1/53-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/54-workers-128        	       1	11280020079 ns/op	4197703392 B/op	88084068 allocs/op
+--- BENCH: BenchmarkExecutor/A1/54-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/55-workers-128        	       1	11149286228 ns/op	4215872112 B/op	88083787 allocs/op
+--- BENCH: BenchmarkExecutor/A1/55-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/56-workers-128        	       1	11327542415 ns/op	4235926688 B/op	88083762 allocs/op
+--- BENCH: BenchmarkExecutor/A1/56-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/57-workers-128        	       1	11476531522 ns/op	4251766672 B/op	88083774 allocs/op
+--- BENCH: BenchmarkExecutor/A1/57-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/58-workers-128        	       1	11715418707 ns/op	4270861296 B/op	88083788 allocs/op
+--- BENCH: BenchmarkExecutor/A1/58-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/59-workers-128        	       1	11508623819 ns/op	4274212288 B/op	88083795 allocs/op
+--- BENCH: BenchmarkExecutor/A1/59-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/60-workers-128        	       1	11660702982 ns/op	4159994096 B/op	88083879 allocs/op
+--- BENCH: BenchmarkExecutor/A1/60-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/61-workers-128        	       1	10811820758 ns/op	4177033904 B/op	88083833 allocs/op
+--- BENCH: BenchmarkExecutor/A1/61-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/62-workers-128        	       1	11599715260 ns/op	4189756192 B/op	88083902 allocs/op
+--- BENCH: BenchmarkExecutor/A1/62-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/63-workers-128        	       1	11242866435 ns/op	4209906624 B/op	88083919 allocs/op
+--- BENCH: BenchmarkExecutor/A1/63-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A1/64-workers-128        	       1	11475254121 ns/op	4226954256 B/op	88084167 allocs/op
+--- BENCH: BenchmarkExecutor/A1/64-workers-128
+    main_test.go:49: number of matches: 4042
+BenchmarkExecutor/A2/1-workers-128         	       1	51579410029 ns/op	22671744592 B/op	387346544 allocs/op
+--- BENCH: BenchmarkExecutor/A2/1-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/2-workers-128         	       1	40504145727 ns/op	22732587736 B/op	387349149 allocs/op
+--- BENCH: BenchmarkExecutor/A2/2-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/3-workers-128         	       1	39852534190 ns/op	22732477592 B/op	387348163 allocs/op
+--- BENCH: BenchmarkExecutor/A2/3-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/4-workers-128         	       1	39170975199 ns/op	22727424192 B/op	387345204 allocs/op
+--- BENCH: BenchmarkExecutor/A2/4-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/5-workers-128         	       1	45525780377 ns/op	22739088184 B/op	387347976 allocs/op
+--- BENCH: BenchmarkExecutor/A2/5-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/6-workers-128         	       1	38209674553 ns/op	22741627720 B/op	387348698 allocs/op
+--- BENCH: BenchmarkExecutor/A2/6-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/7-workers-128         	       1	43938244219 ns/op	22733168928 B/op	387347826 allocs/op
+--- BENCH: BenchmarkExecutor/A2/7-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/8-workers-128         	       1	43601823978 ns/op	22741001800 B/op	387348637 allocs/op
+--- BENCH: BenchmarkExecutor/A2/8-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/9-workers-128         	       1	48344503285 ns/op	22741185864 B/op	387348749 allocs/op
+--- BENCH: BenchmarkExecutor/A2/9-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/10-workers-128        	       1	48068309185 ns/op	22739429224 B/op	387348927 allocs/op
+--- BENCH: BenchmarkExecutor/A2/10-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/11-workers-128        	       1	48964847504 ns/op	22743687272 B/op	387348734 allocs/op
+--- BENCH: BenchmarkExecutor/A2/11-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/12-workers-128        	       1	48038397089 ns/op	22741577672 B/op	387348233 allocs/op
+--- BENCH: BenchmarkExecutor/A2/12-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/13-workers-128        	       1	47220543433 ns/op	22745186840 B/op	387349463 allocs/op
+--- BENCH: BenchmarkExecutor/A2/13-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/14-workers-128        	       1	48847165152 ns/op	22750919224 B/op	387350056 allocs/op
+--- BENCH: BenchmarkExecutor/A2/14-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/15-workers-128        	       1	48484006049 ns/op	22732069848 B/op	387349271 allocs/op
+--- BENCH: BenchmarkExecutor/A2/15-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/16-workers-128        	       1	50342432915 ns/op	22753175464 B/op	387349285 allocs/op
+--- BENCH: BenchmarkExecutor/A2/16-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/17-workers-128        	       1	51152628712 ns/op	22732221768 B/op	387348771 allocs/op
+--- BENCH: BenchmarkExecutor/A2/17-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/18-workers-128        	       1	49367180140 ns/op	22742955272 B/op	387348944 allocs/op
+--- BENCH: BenchmarkExecutor/A2/18-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/19-workers-128        	       1	50135854835 ns/op	22732556456 B/op	387348859 allocs/op
+--- BENCH: BenchmarkExecutor/A2/19-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/20-workers-128        	       1	49207638716 ns/op	22733976024 B/op	387349049 allocs/op
+--- BENCH: BenchmarkExecutor/A2/20-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/21-workers-128        	       1	49098527480 ns/op	22733999048 B/op	387348000 allocs/op
+--- BENCH: BenchmarkExecutor/A2/21-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/22-workers-128        	       1	50567466736 ns/op	22774652744 B/op	387350153 allocs/op
+--- BENCH: BenchmarkExecutor/A2/22-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/23-workers-128        	       1	50820570968 ns/op	22765970920 B/op	387345915 allocs/op
+--- BENCH: BenchmarkExecutor/A2/23-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/24-workers-128        	       1	49751867632 ns/op	22751456232 B/op	387348761 allocs/op
+--- BENCH: BenchmarkExecutor/A2/24-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/25-workers-128        	       1	49886719674 ns/op	22791331560 B/op	387348673 allocs/op
+--- BENCH: BenchmarkExecutor/A2/25-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/26-workers-128        	       1	49978877805 ns/op	22744078232 B/op	387347894 allocs/op
+--- BENCH: BenchmarkExecutor/A2/26-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/27-workers-128        	       1	50448669566 ns/op	22778109784 B/op	387348752 allocs/op
+--- BENCH: BenchmarkExecutor/A2/27-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/28-workers-128        	       1	49576525887 ns/op	22753100904 B/op	387348547 allocs/op
+--- BENCH: BenchmarkExecutor/A2/28-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/29-workers-128        	       1	49878772193 ns/op	22782581192 B/op	387348655 allocs/op
+--- BENCH: BenchmarkExecutor/A2/29-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/30-workers-128        	       1	48341182740 ns/op	22750732424 B/op	387349192 allocs/op
+--- BENCH: BenchmarkExecutor/A2/30-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/31-workers-128        	       1	50583610447 ns/op	22780275256 B/op	387349040 allocs/op
+--- BENCH: BenchmarkExecutor/A2/31-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/32-workers-128        	       1	49970063576 ns/op	22807178024 B/op	387347265 allocs/op
+--- BENCH: BenchmarkExecutor/A2/32-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/33-workers-128        	       1	51720592357 ns/op	22765739800 B/op	387348502 allocs/op
+--- BENCH: BenchmarkExecutor/A2/33-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/34-workers-128        	       1	50188556786 ns/op	22794594616 B/op	387349773 allocs/op
+--- BENCH: BenchmarkExecutor/A2/34-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/35-workers-128        	       1	50292764015 ns/op	22819053256 B/op	387349772 allocs/op
+--- BENCH: BenchmarkExecutor/A2/35-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/36-workers-128        	       1	50245348140 ns/op	22772142184 B/op	387350088 allocs/op
+--- BENCH: BenchmarkExecutor/A2/36-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/37-workers-128        	       1	51659014600 ns/op	22792259480 B/op	387350116 allocs/op
+--- BENCH: BenchmarkExecutor/A2/37-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/38-workers-128        	       1	50567881895 ns/op	22821859272 B/op	387350472 allocs/op
+--- BENCH: BenchmarkExecutor/A2/38-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/39-workers-128        	       1	52357367971 ns/op	22845658568 B/op	387348880 allocs/op
+--- BENCH: BenchmarkExecutor/A2/39-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/40-workers-128        	       1	49195742127 ns/op	22737101912 B/op	387350091 allocs/op
+--- BENCH: BenchmarkExecutor/A2/40-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/41-workers-128        	       1	50683523399 ns/op	22763688664 B/op	387347502 allocs/op
+--- BENCH: BenchmarkExecutor/A2/41-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/42-workers-128        	       1	49544090882 ns/op	22780015240 B/op	387348599 allocs/op
+--- BENCH: BenchmarkExecutor/A2/42-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/43-workers-128        	       1	49860004856 ns/op	22808024632 B/op	387350217 allocs/op
+--- BENCH: BenchmarkExecutor/A2/43-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/44-workers-128        	       1	50191976161 ns/op	22828852728 B/op	387349381 allocs/op
+--- BENCH: BenchmarkExecutor/A2/44-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/45-workers-128        	       1	50871898673 ns/op	22748340904 B/op	387349425 allocs/op
+--- BENCH: BenchmarkExecutor/A2/45-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/46-workers-128        	       1	51692829977 ns/op	22770474248 B/op	387349137 allocs/op
+--- BENCH: BenchmarkExecutor/A2/46-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/47-workers-128        	       1	50563076220 ns/op	22789601080 B/op	387349446 allocs/op
+--- BENCH: BenchmarkExecutor/A2/47-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/48-workers-128        	       1	50989933221 ns/op	22810852232 B/op	387349707 allocs/op
+--- BENCH: BenchmarkExecutor/A2/48-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/49-workers-128        	       1	51233296498 ns/op	22827397480 B/op	387348528 allocs/op
+--- BENCH: BenchmarkExecutor/A2/49-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/50-workers-128        	       1	50583352429 ns/op	22848700616 B/op	387348947 allocs/op
+--- BENCH: BenchmarkExecutor/A2/50-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/51-workers-128        	       1	50879757012 ns/op	22757961704 B/op	387350076 allocs/op
+--- BENCH: BenchmarkExecutor/A2/51-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/52-workers-128        	       1	50475970300 ns/op	22773697864 B/op	387349603 allocs/op
+--- BENCH: BenchmarkExecutor/A2/52-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/53-workers-128        	       1	52382198740 ns/op	22793951992 B/op	387349961 allocs/op
+--- BENCH: BenchmarkExecutor/A2/53-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/54-workers-128        	       1	50601340740 ns/op	22807890312 B/op	387349974 allocs/op
+--- BENCH: BenchmarkExecutor/A2/54-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/55-workers-128        	       1	50943362468 ns/op	22826205432 B/op	387351174 allocs/op
+--- BENCH: BenchmarkExecutor/A2/55-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/56-workers-128        	       1	50441997539 ns/op	22845494424 B/op	387348574 allocs/op
+--- BENCH: BenchmarkExecutor/A2/56-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/57-workers-128        	       1	52198140438 ns/op	22862057112 B/op	387350554 allocs/op
+--- BENCH: BenchmarkExecutor/A2/57-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/58-workers-128        	       1	51288728300 ns/op	22880925384 B/op	387349928 allocs/op
+--- BENCH: BenchmarkExecutor/A2/58-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/59-workers-128        	       1	52022244271 ns/op	22884086536 B/op	387349577 allocs/op
+--- BENCH: BenchmarkExecutor/A2/59-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/60-workers-128        	       1	50850671765 ns/op	22770704936 B/op	387351978 allocs/op
+--- BENCH: BenchmarkExecutor/A2/60-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/61-workers-128        	       1	50259054917 ns/op	22787272728 B/op	387350499 allocs/op
+--- BENCH: BenchmarkExecutor/A2/61-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/62-workers-128        	       1	50265652970 ns/op	22799932504 B/op	387350336 allocs/op
+--- BENCH: BenchmarkExecutor/A2/62-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/63-workers-128        	       1	50716342291 ns/op	22819765688 B/op	387349606 allocs/op
+--- BENCH: BenchmarkExecutor/A2/63-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A2/64-workers-128        	       1	49927886067 ns/op	22837059464 B/op	387350416 allocs/op
+--- BENCH: BenchmarkExecutor/A2/64-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/1-workers-128         	       1	49125030218 ns/op	20272529728 B/op	431840189 allocs/op
+--- BENCH: BenchmarkExecutor/A3/1-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/2-workers-128         	       1	36304095208 ns/op	20332578504 B/op	431840564 allocs/op
+--- BENCH: BenchmarkExecutor/A3/2-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/3-workers-128         	       1	37194628687 ns/op	20332845240 B/op	431840724 allocs/op
+--- BENCH: BenchmarkExecutor/A3/3-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/4-workers-128         	       1	38233086917 ns/op	20328851232 B/op	431840671 allocs/op
+--- BENCH: BenchmarkExecutor/A3/4-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/5-workers-128         	       1	41472127867 ns/op	20339653480 B/op	431840956 allocs/op
+--- BENCH: BenchmarkExecutor/A3/5-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/6-workers-128         	       1	35014936934 ns/op	20342042072 B/op	431841293 allocs/op
+--- BENCH: BenchmarkExecutor/A3/6-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/7-workers-128         	       1	40616824148 ns/op	20333799504 B/op	431841085 allocs/op
+--- BENCH: BenchmarkExecutor/A3/7-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/8-workers-128         	       1	42449193603 ns/op	20341425400 B/op	431841489 allocs/op
+--- BENCH: BenchmarkExecutor/A3/8-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/9-workers-128         	       1	44283685911 ns/op	20341519432 B/op	431841122 allocs/op
+--- BENCH: BenchmarkExecutor/A3/9-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/10-workers-128        	       1	44648959451 ns/op	20339843544 B/op	431841418 allocs/op
+--- BENCH: BenchmarkExecutor/A3/10-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/11-workers-128        	       1	44268177608 ns/op	20344184312 B/op	431841615 allocs/op
+--- BENCH: BenchmarkExecutor/A3/11-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/12-workers-128        	       1	44467968652 ns/op	20342223352 B/op	431841566 allocs/op
+--- BENCH: BenchmarkExecutor/A3/12-workers-128
+    main_test.go:49: number of matches: 12527
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/A3/13-workers-128        	       1	9045796576 ns/op	3681144224 B/op	77192754 allocs/op
+--- BENCH: BenchmarkExecutor/A3/13-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A3/14-workers-128        	       1	44693721723 ns/op	20350901336 B/op	431841037 allocs/op
+--- BENCH: BenchmarkExecutor/A3/14-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/15-workers-128        	       1	46397718914 ns/op	20332363736 B/op	431841034 allocs/op
+--- BENCH: BenchmarkExecutor/A3/15-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/16-workers-128        	       1	47430804562 ns/op	20353490296 B/op	431841084 allocs/op
+--- BENCH: BenchmarkExecutor/A3/16-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/17-workers-128        	       1	46116214122 ns/op	20332706344 B/op	431841183 allocs/op
+--- BENCH: BenchmarkExecutor/A3/17-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/18-workers-128        	       1	45450169216 ns/op	20343354792 B/op	431840906 allocs/op
+--- BENCH: BenchmarkExecutor/A3/18-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/19-workers-128        	       1	46097954361 ns/op	20333097656 B/op	431840974 allocs/op
+--- BENCH: BenchmarkExecutor/A3/19-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/20-workers-128        	       1	45771310155 ns/op	20334502968 B/op	431841116 allocs/op
+--- BENCH: BenchmarkExecutor/A3/20-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/21-workers-128        	       1	46746627844 ns/op	20334616344 B/op	431841051 allocs/op
+--- BENCH: BenchmarkExecutor/A3/21-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/22-workers-128        	       1	46463702658 ns/op	20374733912 B/op	431841100 allocs/op
+--- BENCH: BenchmarkExecutor/A3/22-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/23-workers-128        	       1	48321965040 ns/op	20367553864 B/op	431841135 allocs/op
+--- BENCH: BenchmarkExecutor/A3/23-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/24-workers-128        	       1	46576479570 ns/op	20351981800 B/op	431841162 allocs/op
+--- BENCH: BenchmarkExecutor/A3/24-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/25-workers-128        	       1	46840244761 ns/op	20391982504 B/op	431841141 allocs/op
+--- BENCH: BenchmarkExecutor/A3/25-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/26-workers-128        	       1	46849737982 ns/op	20345036680 B/op	431841276 allocs/op
+--- BENCH: BenchmarkExecutor/A3/26-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/27-workers-128        	       1	46310921724 ns/op	20378744648 B/op	431841257 allocs/op
+--- BENCH: BenchmarkExecutor/A3/27-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/28-workers-128        	       1	47294731550 ns/op	20353776984 B/op	431841348 allocs/op
+--- BENCH: BenchmarkExecutor/A3/28-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/29-workers-128        	       1	47609805184 ns/op	20383332600 B/op	431841375 allocs/op
+--- BENCH: BenchmarkExecutor/A3/29-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/30-workers-128        	       1	46380140885 ns/op	20351261816 B/op	431841352 allocs/op
+--- BENCH: BenchmarkExecutor/A3/30-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/31-workers-128        	       1	47334747054 ns/op	20380941112 B/op	431841434 allocs/op
+--- BENCH: BenchmarkExecutor/A3/31-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/32-workers-128        	       1	46068353859 ns/op	20408259224 B/op	431841480 allocs/op
+--- BENCH: BenchmarkExecutor/A3/32-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/33-workers-128        	       1	48043917828 ns/op	20366518680 B/op	431841465 allocs/op
+--- BENCH: BenchmarkExecutor/A3/33-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/34-workers-128        	       1	46287062742 ns/op	20395068856 B/op	431841493 allocs/op
+--- BENCH: BenchmarkExecutor/A3/34-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/35-workers-128        	       1	46842087434 ns/op	20419354424 B/op	431841537 allocs/op
+--- BENCH: BenchmarkExecutor/A3/35-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/36-workers-128        	       1	48268165001 ns/op	20372302024 B/op	431841689 allocs/op
+--- BENCH: BenchmarkExecutor/A3/36-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/37-workers-128        	       1	47581528998 ns/op	20392426520 B/op	431841656 allocs/op
+--- BENCH: BenchmarkExecutor/A3/37-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/38-workers-128        	       1	48491469152 ns/op	20421980248 B/op	431841549 allocs/op
+--- BENCH: BenchmarkExecutor/A3/38-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/39-workers-128        	       1	47696778294 ns/op	20446299800 B/op	431841581 allocs/op
+--- BENCH: BenchmarkExecutor/A3/39-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/40-workers-128        	       1	47374415260 ns/op	20337456344 B/op	431841691 allocs/op
+--- BENCH: BenchmarkExecutor/A3/40-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/41-workers-128        	       1	48321669334 ns/op	20364970568 B/op	431841858 allocs/op
+--- BENCH: BenchmarkExecutor/A3/41-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/42-workers-128        	       1	46394223084 ns/op	20380861224 B/op	431841788 allocs/op
+--- BENCH: BenchmarkExecutor/A3/42-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/43-workers-128        	       1	47165050846 ns/op	20408367032 B/op	431841875 allocs/op
+--- BENCH: BenchmarkExecutor/A3/43-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/44-workers-128        	       1	47299524993 ns/op	20429468344 B/op	431841828 allocs/op
+--- BENCH: BenchmarkExecutor/A3/44-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/45-workers-128        	       1	46972093885 ns/op	20348921656 B/op	431841825 allocs/op
+--- BENCH: BenchmarkExecutor/A3/45-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/46-workers-128        	       1	46402815155 ns/op	20371147000 B/op	431841929 allocs/op
+--- BENCH: BenchmarkExecutor/A3/46-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/47-workers-128        	       1	46805116375 ns/op	20390188536 B/op	431841926 allocs/op
+--- BENCH: BenchmarkExecutor/A3/47-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/48-workers-128        	       1	46724513200 ns/op	20411394120 B/op	431841926 allocs/op
+--- BENCH: BenchmarkExecutor/A3/48-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/49-workers-128        	       1	46721300156 ns/op	20428273320 B/op	431842040 allocs/op
+--- BENCH: BenchmarkExecutor/A3/49-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/50-workers-128        	       1	47298072970 ns/op	20449557032 B/op	431842033 allocs/op
+--- BENCH: BenchmarkExecutor/A3/50-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/51-workers-128        	       1	46159806281 ns/op	20358460424 B/op	431842091 allocs/op
+--- BENCH: BenchmarkExecutor/A3/51-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/52-workers-128        	       1	46576518895 ns/op	20374434072 B/op	431842173 allocs/op
+--- BENCH: BenchmarkExecutor/A3/52-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/53-workers-128        	       1	47490054297 ns/op	20394484776 B/op	431842195 allocs/op
+--- BENCH: BenchmarkExecutor/A3/53-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/54-workers-128        	       1	45961531739 ns/op	20408277864 B/op	431842183 allocs/op
+--- BENCH: BenchmarkExecutor/A3/54-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/55-workers-128        	       1	47617853618 ns/op	20426345688 B/op	431842227 allocs/op
+--- BENCH: BenchmarkExecutor/A3/55-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/56-workers-128        	       1	47635624420 ns/op	20446431608 B/op	431842214 allocs/op
+--- BENCH: BenchmarkExecutor/A3/56-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/57-workers-128        	       1	48229843774 ns/op	20462284984 B/op	431842177 allocs/op
+--- BENCH: BenchmarkExecutor/A3/57-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/58-workers-128        	       1	48046734381 ns/op	20481371304 B/op	431842356 allocs/op
+--- BENCH: BenchmarkExecutor/A3/58-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/59-workers-128        	       1	47913014901 ns/op	20484756888 B/op	431842313 allocs/op
+--- BENCH: BenchmarkExecutor/A3/59-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/60-workers-128        	       1	47701724087 ns/op	20370545832 B/op	431842307 allocs/op
+--- BENCH: BenchmarkExecutor/A3/60-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/61-workers-128        	       1	47810273065 ns/op	20387643672 B/op	431842425 allocs/op
+--- BENCH: BenchmarkExecutor/A3/61-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/62-workers-128        	       1	47160163972 ns/op	20400446904 B/op	431842478 allocs/op
+--- BENCH: BenchmarkExecutor/A3/62-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/63-workers-128        	       1	47525914504 ns/op	20420556632 B/op	431842455 allocs/op
+--- BENCH: BenchmarkExecutor/A3/63-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A3/64-workers-128        	       1	46799119306 ns/op	20437437096 B/op	431842448 allocs/op
+--- BENCH: BenchmarkExecutor/A3/64-workers-128
+    main_test.go:49: number of matches: 12527
+BenchmarkExecutor/A4/1-workers-128         	       1	25036607399 ns/op	7200628696 B/op	122447536 allocs/op
+--- BENCH: BenchmarkExecutor/A4/1-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/2-workers-128         	       1	18996675524 ns/op	7260400232 B/op	122446949 allocs/op
+--- BENCH: BenchmarkExecutor/A4/2-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/3-workers-128         	       1	18928923651 ns/op	7260752648 B/op	122447389 allocs/op
+--- BENCH: BenchmarkExecutor/A4/3-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/4-workers-128         	       1	16715797277 ns/op	7257062136 B/op	122448159 allocs/op
+--- BENCH: BenchmarkExecutor/A4/4-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/5-workers-128         	       1	17793494084 ns/op	7267541656 B/op	122447484 allocs/op
+--- BENCH: BenchmarkExecutor/A4/5-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/6-workers-128         	       1	17202164306 ns/op	7270181256 B/op	122448461 allocs/op
+--- BENCH: BenchmarkExecutor/A4/6-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/7-workers-128         	       1	16964611165 ns/op	7261987544 B/op	122448452 allocs/op
+--- BENCH: BenchmarkExecutor/A4/7-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/8-workers-128         	       1	16893419907 ns/op	7269332856 B/op	122447804 allocs/op
+--- BENCH: BenchmarkExecutor/A4/8-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/9-workers-128         	       1	17329520524 ns/op	7269857352 B/op	122448841 allocs/op
+--- BENCH: BenchmarkExecutor/A4/9-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/10-workers-128        	       1	16376020048 ns/op	7267975512 B/op	122448488 allocs/op
+--- BENCH: BenchmarkExecutor/A4/10-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/11-workers-128        	       1	16442802004 ns/op	7272238968 B/op	122448154 allocs/op
+--- BENCH: BenchmarkExecutor/A4/11-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/12-workers-128        	       1	16507492815 ns/op	7270516776 B/op	122448787 allocs/op
+--- BENCH: BenchmarkExecutor/A4/12-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/13-workers-128        	       1	17548820357 ns/op	7273649192 B/op	122448372 allocs/op
+--- BENCH: BenchmarkExecutor/A4/13-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/14-workers-128        	       1	16907546839 ns/op	7279381944 B/op	122449074 allocs/op
+--- BENCH: BenchmarkExecutor/A4/14-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/15-workers-128        	       1	17859407777 ns/op	7260517816 B/op	122448411 allocs/op
+--- BENCH: BenchmarkExecutor/A4/15-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/16-workers-128        	       1	17679133878 ns/op	7281788616 B/op	122448734 allocs/op
+--- BENCH: BenchmarkExecutor/A4/16-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/17-workers-128        	       1	16981612609 ns/op	7260792072 B/op	122448149 allocs/op
+--- BENCH: BenchmarkExecutor/A4/17-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/18-workers-128        	       1	17207307262 ns/op	7271457768 B/op	122448322 allocs/op
+--- BENCH: BenchmarkExecutor/A4/18-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/19-workers-128        	       1	17193598176 ns/op	7260816568 B/op	122447264 allocs/op
+--- BENCH: BenchmarkExecutor/A4/19-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/20-workers-128        	       1	16489272071 ns/op	7263010552 B/op	122449553 allocs/op
+--- BENCH: BenchmarkExecutor/A4/20-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/21-workers-128        	       1	17818490189 ns/op	7262953064 B/op	122448824 allocs/op
+--- BENCH: BenchmarkExecutor/A4/21-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/22-workers-128        	       1	17386298315 ns/op	7302796440 B/op	122448338 allocs/op
+--- BENCH: BenchmarkExecutor/A4/22-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/23-workers-128        	       1	15864284805 ns/op	7295990632 B/op	122449389 allocs/op
+--- BENCH: BenchmarkExecutor/A4/23-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/24-workers-128        	       1	16962848994 ns/op	7280093544 B/op	122448439 allocs/op
+--- BENCH: BenchmarkExecutor/A4/24-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/25-workers-128        	       1	17047767113 ns/op	7320386248 B/op	122449343 allocs/op
+--- BENCH: BenchmarkExecutor/A4/25-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/26-workers-128        	       1	17702784935 ns/op	7273096360 B/op	122448511 allocs/op
+--- BENCH: BenchmarkExecutor/A4/26-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/27-workers-128        	       1	17639168890 ns/op	7306952264 B/op	122448765 allocs/op
+--- BENCH: BenchmarkExecutor/A4/27-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/28-workers-128        	       1	16934775415 ns/op	7281822232 B/op	122448389 allocs/op
+--- BENCH: BenchmarkExecutor/A4/28-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/29-workers-128        	       1	17889531115 ns/op	7311569288 B/op	122448966 allocs/op
+--- BENCH: BenchmarkExecutor/A4/29-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/30-workers-128        	       1	16909995165 ns/op	7279521224 B/op	122449002 allocs/op
+--- BENCH: BenchmarkExecutor/A4/30-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/31-workers-128        	       1	17586233099 ns/op	7308807224 B/op	122448415 allocs/op
+--- BENCH: BenchmarkExecutor/A4/31-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/32-workers-128        	       1	16798226356 ns/op	7336011768 B/op	122447486 allocs/op
+--- BENCH: BenchmarkExecutor/A4/32-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/33-workers-128        	       1	18358920620 ns/op	7294456648 B/op	122448198 allocs/op
+--- BENCH: BenchmarkExecutor/A4/33-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/34-workers-128        	       1	17298163890 ns/op	7323101032 B/op	122448765 allocs/op
+--- BENCH: BenchmarkExecutor/A4/34-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/35-workers-128        	       1	17278667054 ns/op	7347701000 B/op	122449689 allocs/op
+--- BENCH: BenchmarkExecutor/A4/35-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/36-workers-128        	       1	17683944337 ns/op	7300432008 B/op	122448819 allocs/op
+--- BENCH: BenchmarkExecutor/A4/36-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/37-workers-128        	       1	17632062089 ns/op	7320911432 B/op	122449862 allocs/op
+--- BENCH: BenchmarkExecutor/A4/37-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/38-workers-128        	       1	16762173575 ns/op	7350292136 B/op	122449483 allocs/op
+--- BENCH: BenchmarkExecutor/A4/38-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/39-workers-128        	       1	17220313728 ns/op	7374537176 B/op	122449149 allocs/op
+--- BENCH: BenchmarkExecutor/A4/39-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/40-workers-128        	       1	17975560353 ns/op	7265736024 B/op	122449523 allocs/op
+--- BENCH: BenchmarkExecutor/A4/40-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/41-workers-128        	       1	17903895268 ns/op	7293303608 B/op	122449620 allocs/op
+--- BENCH: BenchmarkExecutor/A4/41-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/42-workers-128        	       1	17133316802 ns/op	7308882920 B/op	122448837 allocs/op
+--- BENCH: BenchmarkExecutor/A4/42-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/43-workers-128        	       1	17656218133 ns/op	7336301720 B/op	122448705 allocs/op
+--- BENCH: BenchmarkExecutor/A4/43-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/44-workers-128        	       1	17575194134 ns/op	7357612280 B/op	122449222 allocs/op
+--- BENCH: BenchmarkExecutor/A4/44-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/45-workers-128        	       1	17196764713 ns/op	7277137016 B/op	122449528 allocs/op
+--- BENCH: BenchmarkExecutor/A4/45-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/46-workers-128        	       1	17794107850 ns/op	7298983736 B/op	122448255 allocs/op
+--- BENCH: BenchmarkExecutor/A4/46-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/47-workers-128        	       1	17065917608 ns/op	7318376312 B/op	122449279 allocs/op
+--- BENCH: BenchmarkExecutor/A4/47-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/48-workers-128        	       1	17520667843 ns/op	7339617816 B/op	122449789 allocs/op
+--- BENCH: BenchmarkExecutor/A4/48-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/49-workers-128        	       1	17886293532 ns/op	7356660520 B/op	122449892 allocs/op
+--- BENCH: BenchmarkExecutor/A4/49-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/50-workers-128        	       1	18093401613 ns/op	7377763400 B/op	122449930 allocs/op
+--- BENCH: BenchmarkExecutor/A4/50-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/51-workers-128        	       1	17319751443 ns/op	7286586760 B/op	122449422 allocs/op
+--- BENCH: BenchmarkExecutor/A4/51-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/52-workers-128        	       1	17679902645 ns/op	7302593048 B/op	122449783 allocs/op
+--- BENCH: BenchmarkExecutor/A4/52-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/53-workers-128        	       1	17312714989 ns/op	7322482920 B/op	122449233 allocs/op
+--- BENCH: BenchmarkExecutor/A4/53-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/54-workers-128        	       1	16711658352 ns/op	7336460728 B/op	122449677 allocs/op
+--- BENCH: BenchmarkExecutor/A4/54-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/55-workers-128        	       1	17880076594 ns/op	7354549544 B/op	122449638 allocs/op
+--- BENCH: BenchmarkExecutor/A4/55-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/56-workers-128        	       1	17461482166 ns/op	7374816904 B/op	122450297 allocs/op
+--- BENCH: BenchmarkExecutor/A4/56-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/57-workers-128        	       1	17718131770 ns/op	7390286152 B/op	122449211 allocs/op
+--- BENCH: BenchmarkExecutor/A4/57-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/58-workers-128        	       1	17221036401 ns/op	7409812152 B/op	122450288 allocs/op
+--- BENCH: BenchmarkExecutor/A4/58-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/59-workers-128        	       1	17620077615 ns/op	7413014904 B/op	122450085 allocs/op
+--- BENCH: BenchmarkExecutor/A4/59-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/60-workers-128        	       1	16719516250 ns/op	7298905912 B/op	122450125 allocs/op
+--- BENCH: BenchmarkExecutor/A4/60-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/61-workers-128        	       1	17271330784 ns/op	7315844520 B/op	122449690 allocs/op
+--- BENCH: BenchmarkExecutor/A4/61-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/62-workers-128        	       1	17235757117 ns/op	7328593352 B/op	122449959 allocs/op
+--- BENCH: BenchmarkExecutor/A4/62-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/63-workers-128        	       1	17286996695 ns/op	7348561720 B/op	122449322 allocs/op
+--- BENCH: BenchmarkExecutor/A4/63-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A4/64-workers-128        	       1	17327131199 ns/op	7365560504 B/op	122449901 allocs/op
+--- BENCH: BenchmarkExecutor/A4/64-workers-128
+    main_test.go:49: number of matches: 2659
+BenchmarkExecutor/A5/1-workers-128         	       1	63276267454 ns/op	24869067000 B/op	444788965 allocs/op
+--- BENCH: BenchmarkExecutor/A5/1-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/2-workers-128         	       1	49242539694 ns/op	24929125736 B/op	444789370 allocs/op
+--- BENCH: BenchmarkExecutor/A5/2-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/3-workers-128         	       1	43682097857 ns/op	24929618568 B/op	444790066 allocs/op
+--- BENCH: BenchmarkExecutor/A5/3-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/4-workers-128         	       1	48907951371 ns/op	24925676840 B/op	444790240 allocs/op
+--- BENCH: BenchmarkExecutor/A5/4-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/5-workers-128         	       1	50857933429 ns/op	24936589240 B/op	444790757 allocs/op
+--- BENCH: BenchmarkExecutor/A5/5-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/6-workers-128         	       1	45445099606 ns/op	24938778104 B/op	444790574 allocs/op
+--- BENCH: BenchmarkExecutor/A5/6-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/7-workers-128         	       1	50099140060 ns/op	24930703048 B/op	444790862 allocs/op
+--- BENCH: BenchmarkExecutor/A5/7-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/8-workers-128         	       1	49740205943 ns/op	24937945576 B/op	444789930 allocs/op
+--- BENCH: BenchmarkExecutor/A5/8-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/9-workers-128         	       1	55050868964 ns/op	24938348664 B/op	444790583 allocs/op
+--- BENCH: BenchmarkExecutor/A5/9-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/10-workers-128        	       1	53426955603 ns/op	24936418120 B/op	444790163 allocs/op
+--- BENCH: BenchmarkExecutor/A5/10-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/11-workers-128        	       1	53668804765 ns/op	24940948584 B/op	444790637 allocs/op
+--- BENCH: BenchmarkExecutor/A5/11-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/12-workers-128        	       1	53043819909 ns/op	24939162936 B/op	444791181 allocs/op
+--- BENCH: BenchmarkExecutor/A5/12-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/13-workers-128        	       1	52853935791 ns/op	24942295288 B/op	444790725 allocs/op
+--- BENCH: BenchmarkExecutor/A5/13-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/14-workers-128        	       1	51637731074 ns/op	24947503352 B/op	444790164 allocs/op
+--- BENCH: BenchmarkExecutor/A5/14-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/15-workers-128        	       1	53220717647 ns/op	24929526152 B/op	444791795 allocs/op
+--- BENCH: BenchmarkExecutor/A5/15-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/16-workers-128        	       1	53704757780 ns/op	24950293448 B/op	444790648 allocs/op
+--- BENCH: BenchmarkExecutor/A5/16-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/17-workers-128        	       1	54962011806 ns/op	24929105096 B/op	444789444 allocs/op
+--- BENCH: BenchmarkExecutor/A5/17-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/18-workers-128        	       1	53378502857 ns/op	24940826584 B/op	444792623 allocs/op
+--- BENCH: BenchmarkExecutor/A5/18-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/19-workers-128        	       1	53725047132 ns/op	24929885048 B/op	444790554 allocs/op
+--- BENCH: BenchmarkExecutor/A5/19-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/20-workers-128        	       1	53472512263 ns/op	24931551736 B/op	444791599 allocs/op
+--- BENCH: BenchmarkExecutor/A5/20-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/21-workers-128        	       1	55641492267 ns/op	24931487096 B/op	444790876 allocs/op
+--- BENCH: BenchmarkExecutor/A5/21-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/22-workers-128        	       1	54481210576 ns/op	24971530552 B/op	444790850 allocs/op
+--- BENCH: BenchmarkExecutor/A5/22-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/23-workers-128        	       1	55010330029 ns/op	24964813544 B/op	444792093 allocs/op
+--- BENCH: BenchmarkExecutor/A5/23-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/24-workers-128        	       1	23849009321 ns/op	10805878840 B/op	237344703 allocs/op
+--- BENCH: BenchmarkExecutor/A5/24-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A5/25-workers-128        	       1	55675287606 ns/op	24988951768 B/op	444791131 allocs/op
+--- BENCH: BenchmarkExecutor/A5/25-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/26-workers-128        	       1	54009595194 ns/op	24941829032 B/op	444790771 allocs/op
+--- BENCH: BenchmarkExecutor/A5/26-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/27-workers-128        	       1	54945181585 ns/op	24975961192 B/op	444792128 allocs/op
+--- BENCH: BenchmarkExecutor/A5/27-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/28-workers-128        	       1	56158096481 ns/op	24951039880 B/op	444792297 allocs/op
+--- BENCH: BenchmarkExecutor/A5/28-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/29-workers-128        	       1	54775069748 ns/op	24980448088 B/op	444792097 allocs/op
+--- BENCH: BenchmarkExecutor/A5/29-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/30-workers-128        	       1	54715196617 ns/op	24948786200 B/op	444793191 allocs/op
+--- BENCH: BenchmarkExecutor/A5/30-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/31-workers-128        	       1	54985963859 ns/op	24977665512 B/op	444790975 allocs/op
+--- BENCH: BenchmarkExecutor/A5/31-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/32-workers-128        	       1	56773006787 ns/op	25004729544 B/op	444789941 allocs/op
+--- BENCH: BenchmarkExecutor/A5/32-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/33-workers-128        	       1	55710175850 ns/op	24963113176 B/op	444790527 allocs/op
+--- BENCH: BenchmarkExecutor/A5/33-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/34-workers-128        	       1	55176933527 ns/op	24992128744 B/op	444791824 allocs/op
+--- BENCH: BenchmarkExecutor/A5/34-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/35-workers-128        	       1	54909970209 ns/op	25016198680 B/op	444791104 allocs/op
+--- BENCH: BenchmarkExecutor/A5/35-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/36-workers-128        	       1	53391769722 ns/op	24968879976 B/op	444790220 allocs/op
+--- BENCH: BenchmarkExecutor/A5/36-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/37-workers-128        	       1	55727284899 ns/op	24989228600 B/op	444791225 allocs/op
+--- BENCH: BenchmarkExecutor/A5/37-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/38-workers-128        	       1	54207442949 ns/op	25019397144 B/op	444792853 allocs/op
+--- BENCH: BenchmarkExecutor/A5/38-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/39-workers-128        	       1	54125565704 ns/op	25043027000 B/op	444790870 allocs/op
+--- BENCH: BenchmarkExecutor/A5/39-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/40-workers-128        	       1	55126165624 ns/op	24934402232 B/op	444791777 allocs/op
+--- BENCH: BenchmarkExecutor/A5/40-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/41-workers-128        	       1	54894653758 ns/op	24961713864 B/op	444791390 allocs/op
+--- BENCH: BenchmarkExecutor/A5/41-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/42-workers-128        	       1	55778335458 ns/op	24977818072 B/op	444791850 allocs/op
+--- BENCH: BenchmarkExecutor/A5/42-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/43-workers-128        	       1	55475128432 ns/op	25004707768 B/op	444790228 allocs/op
+--- BENCH: BenchmarkExecutor/A5/43-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/44-workers-128        	       1	54255769310 ns/op	25026936632 B/op	444793142 allocs/op
+--- BENCH: BenchmarkExecutor/A5/44-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/45-workers-128        	       1	54396181548 ns/op	24945883768 B/op	444791679 allocs/op
+--- BENCH: BenchmarkExecutor/A5/45-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/46-workers-128        	       1	55309887425 ns/op	24967817320 B/op	444791057 allocs/op
+--- BENCH: BenchmarkExecutor/A5/46-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/47-workers-128        	       1	54118219370 ns/op	24986961672 B/op	444791296 allocs/op
+--- BENCH: BenchmarkExecutor/A5/47-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/48-workers-128        	       1	54955556064 ns/op	25008373080 B/op	444792132 allocs/op
+--- BENCH: BenchmarkExecutor/A5/48-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/49-workers-128        	       1	55748821584 ns/op	25024752024 B/op	444790586 allocs/op
+--- BENCH: BenchmarkExecutor/A5/49-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/50-workers-128        	       1	54843894009 ns/op	25046287816 B/op	444791393 allocs/op
+--- BENCH: BenchmarkExecutor/A5/50-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/51-workers-128        	       1	54966203602 ns/op	24955771672 B/op	444793060 allocs/op
+--- BENCH: BenchmarkExecutor/A5/51-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/52-workers-128        	       1	55640772972 ns/op	24971336424 B/op	444791847 allocs/op
+--- BENCH: BenchmarkExecutor/A5/52-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/53-workers-128        	       1	54609545632 ns/op	24991306024 B/op	444791408 allocs/op
+--- BENCH: BenchmarkExecutor/A5/53-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/54-workers-128        	       1	53223839396 ns/op	25005740216 B/op	444793436 allocs/op
+--- BENCH: BenchmarkExecutor/A5/54-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/55-workers-128        	       1	55264750252 ns/op	25022866296 B/op	444791042 allocs/op
+--- BENCH: BenchmarkExecutor/A5/55-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/56-workers-128        	       1	55165848850 ns/op	25043150920 B/op	444791531 allocs/op
+--- BENCH: BenchmarkExecutor/A5/56-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/57-workers-128        	       1	55238454313 ns/op	25059357656 B/op	444792181 allocs/op
+--- BENCH: BenchmarkExecutor/A5/57-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/58-workers-128        	       1	55726882399 ns/op	25078240536 B/op	444791854 allocs/op
+--- BENCH: BenchmarkExecutor/A5/58-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/59-workers-128        	       1	54228684646 ns/op	25081464568 B/op	444791455 allocs/op
+--- BENCH: BenchmarkExecutor/A5/59-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/60-workers-128        	       1	54702071009 ns/op	24967812632 B/op	444792839 allocs/op
+--- BENCH: BenchmarkExecutor/A5/60-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/61-workers-128        	       1	54682623517 ns/op	24984270280 B/op	444791555 allocs/op
+--- BENCH: BenchmarkExecutor/A5/61-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/62-workers-128        	       1	55876744253 ns/op	24997269768 B/op	444792110 allocs/op
+--- BENCH: BenchmarkExecutor/A5/62-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/63-workers-128        	       1	54484353179 ns/op	25016774920 B/op	444790546 allocs/op
+--- BENCH: BenchmarkExecutor/A5/63-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A5/64-workers-128        	       1	55398232010 ns/op	25034460664 B/op	444792550 allocs/op
+--- BENCH: BenchmarkExecutor/A5/64-workers-128
+    main_test.go:49: number of matches: 5372
+BenchmarkExecutor/A6/1-workers-128         	       1	87966161834 ns/op	37649758448 B/op	361282683 allocs/op
+--- BENCH: BenchmarkExecutor/A6/1-workers-128
+    main_test.go:49: number of matches: 6423
+BenchmarkExecutor/A6/2-workers-128         	       1	84510531174 ns/op	37650011520 B/op	360032047 allocs/op
+--- BENCH: BenchmarkExecutor/A6/2-workers-128
+    main_test.go:49: number of matches: 6342
+BenchmarkExecutor/A6/3-workers-128         	       1	81162476504 ns/op	37721175248 B/op	361512156 allocs/op
+--- BENCH: BenchmarkExecutor/A6/3-workers-128
+    main_test.go:49: number of matches: 6443
+BenchmarkExecutor/A6/4-workers-128         	       1	81788751928 ns/op	37696170864 B/op	361063115 allocs/op
+--- BENCH: BenchmarkExecutor/A6/4-workers-128
+    main_test.go:49: number of matches: 6395
+BenchmarkExecutor/A6/5-workers-128         	       1	80659672564 ns/op	37731279040 B/op	361575251 allocs/op
+--- BENCH: BenchmarkExecutor/A6/5-workers-128
+    main_test.go:49: number of matches: 6454
+BenchmarkExecutor/A6/6-workers-128         	       1	81014178051 ns/op	37702800688 B/op	360932567 allocs/op
+--- BENCH: BenchmarkExecutor/A6/6-workers-128
+    main_test.go:49: number of matches: 6417
+BenchmarkExecutor/A6/7-workers-128         	       1	80443436478 ns/op	37699386048 B/op	361039227 allocs/op
+--- BENCH: BenchmarkExecutor/A6/7-workers-128
+    main_test.go:49: number of matches: 6405
+BenchmarkExecutor/A6/8-workers-128         	       1	81590803846 ns/op	37759256640 B/op	362117196 allocs/op
+--- BENCH: BenchmarkExecutor/A6/8-workers-128
+    main_test.go:49: number of matches: 6463
+BenchmarkExecutor/A6/9-workers-128         	       1	82138926753 ns/op	37709829968 B/op	361086987 allocs/op
+--- BENCH: BenchmarkExecutor/A6/9-workers-128
+    main_test.go:49: number of matches: 6407
+BenchmarkExecutor/A6/10-workers-128        	       1	80755925449 ns/op	37717229536 B/op	361293754 allocs/op
+--- BENCH: BenchmarkExecutor/A6/10-workers-128
+    main_test.go:49: number of matches: 6405
+BenchmarkExecutor/A6/11-workers-128        	       1	82130476473 ns/op	37718471120 B/op	361212273 allocs/op
+--- BENCH: BenchmarkExecutor/A6/11-workers-128
+    main_test.go:49: number of matches: 6413
+BenchmarkExecutor/A6/12-workers-128        	       1	80086715984 ns/op	37722136720 B/op	361333725 allocs/op
+--- BENCH: BenchmarkExecutor/A6/12-workers-128
+    main_test.go:49: number of matches: 6410
+BenchmarkExecutor/A6/13-workers-128        	       1	81124967666 ns/op	37702448032 B/op	360842658 allocs/op
+--- BENCH: BenchmarkExecutor/A6/13-workers-128
+    main_test.go:49: number of matches: 6403
+BenchmarkExecutor/A6/14-workers-128        	       1	80403370695 ns/op	37722947760 B/op	361167615 allocs/op
+--- BENCH: BenchmarkExecutor/A6/14-workers-128
+    main_test.go:49: number of matches: 6429
+BenchmarkExecutor/A6/15-workers-128        	       1	81027044149 ns/op	37708525008 B/op	361266002 allocs/op
+--- BENCH: BenchmarkExecutor/A6/15-workers-128
+    main_test.go:49: number of matches: 6407
+BenchmarkExecutor/A6/16-workers-128        	       1	81657820156 ns/op	37713930688 B/op	360909537 allocs/op
+--- BENCH: BenchmarkExecutor/A6/16-workers-128
+    main_test.go:49: number of matches: 6384
+BenchmarkExecutor/A6/17-workers-128        	       1	81928291327 ns/op	37715405168 B/op	361385706 allocs/op
+--- BENCH: BenchmarkExecutor/A6/17-workers-128
+    main_test.go:49: number of matches: 6420
+BenchmarkExecutor/A6/18-workers-128        	       1	81928651792 ns/op	37720296576 B/op	361252927 allocs/op
+--- BENCH: BenchmarkExecutor/A6/18-workers-128
+    main_test.go:49: number of matches: 6450
+BenchmarkExecutor/A6/19-workers-128        	       1	81902817365 ns/op	37679129200 B/op	360622515 allocs/op
+--- BENCH: BenchmarkExecutor/A6/19-workers-128
+    main_test.go:49: number of matches: 6383
+BenchmarkExecutor/A6/20-workers-128        	       1	81479060117 ns/op	37745490976 B/op	361972410 allocs/op
+--- BENCH: BenchmarkExecutor/A6/20-workers-128
+    main_test.go:49: number of matches: 6446
+BenchmarkExecutor/A6/21-workers-128        	       1	82539722055 ns/op	37726593440 B/op	361569194 allocs/op
+--- BENCH: BenchmarkExecutor/A6/21-workers-128
+    main_test.go:49: number of matches: 6470
+BenchmarkExecutor/A6/22-workers-128        	       1	82112782069 ns/op	37760281744 B/op	361441396 allocs/op
+--- BENCH: BenchmarkExecutor/A6/22-workers-128
+    main_test.go:49: number of matches: 6446
+BenchmarkExecutor/A6/23-workers-128        	       1	82062377137 ns/op	37764666048 B/op	361678204 allocs/op
+--- BENCH: BenchmarkExecutor/A6/23-workers-128
+    main_test.go:49: number of matches: 6439
+BenchmarkExecutor/A6/24-workers-128        	       1	81851949297 ns/op	37738518048 B/op	361457457 allocs/op
+--- BENCH: BenchmarkExecutor/A6/24-workers-128
+    main_test.go:49: number of matches: 6453
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/A6/25-workers-128        	       1	82692679803 ns/op	37762372096 B/op	361061684 allocs/op
+--- BENCH: BenchmarkExecutor/A6/25-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A6/26-workers-128        	       1	82232801534 ns/op	37663270560 B/op	360018554 allocs/op
+--- BENCH: BenchmarkExecutor/A6/26-workers-128
+    main_test.go:49: number of matches: 6330
+BenchmarkExecutor/A6/27-workers-128        	       1	81990754124 ns/op	37759462592 B/op	361326461 allocs/op
+--- BENCH: BenchmarkExecutor/A6/27-workers-128
+    main_test.go:49: number of matches: 6439
+BenchmarkExecutor/A6/28-workers-128        	       1	83320001088 ns/op	37762499920 B/op	361927754 allocs/op
+--- BENCH: BenchmarkExecutor/A6/28-workers-128
+    main_test.go:49: number of matches: 6442
+BenchmarkExecutor/A6/29-workers-128        	       1	82162573349 ns/op	37740833072 B/op	360884619 allocs/op
+--- BENCH: BenchmarkExecutor/A6/29-workers-128
+    main_test.go:49: number of matches: 6405
+BenchmarkExecutor/A6/30-workers-128        	       1	82447064866 ns/op	37689648928 B/op	360465921 allocs/op
+--- BENCH: BenchmarkExecutor/A6/30-workers-128
+    main_test.go:49: number of matches: 6381
+BenchmarkExecutor/A6/31-workers-128        	       1	82106167428 ns/op	37731848880 B/op	360718243 allocs/op
+--- BENCH: BenchmarkExecutor/A6/31-workers-128
+    main_test.go:49: number of matches: 6389
+BenchmarkExecutor/A6/32-workers-128        	       1	82370148189 ns/op	37767536032 B/op	360907553 allocs/op
+--- BENCH: BenchmarkExecutor/A6/32-workers-128
+    main_test.go:49: number of matches: 6408
+BenchmarkExecutor/A6/33-workers-128        	       1	80951255413 ns/op	37711248448 B/op	360579237 allocs/op
+--- BENCH: BenchmarkExecutor/A6/33-workers-128
+    main_test.go:49: number of matches: 6368
+BenchmarkExecutor/A6/34-workers-128        	       1	82920927434 ns/op	37761394480 B/op	361057996 allocs/op
+--- BENCH: BenchmarkExecutor/A6/34-workers-128
+    main_test.go:49: number of matches: 6422
+BenchmarkExecutor/A6/35-workers-128        	       1	82292582500 ns/op	37768128368 B/op	360678761 allocs/op
+--- BENCH: BenchmarkExecutor/A6/35-workers-128
+    main_test.go:49: number of matches: 6397
+BenchmarkExecutor/A6/36-workers-128        	       1	81749030050 ns/op	37717831280 B/op	360602263 allocs/op
+--- BENCH: BenchmarkExecutor/A6/36-workers-128
+    main_test.go:49: number of matches: 6386
+BenchmarkExecutor/A6/37-workers-128        	       1	82532672274 ns/op	37790112176 B/op	361685694 allocs/op
+--- BENCH: BenchmarkExecutor/A6/37-workers-128
+    main_test.go:49: number of matches: 6448
+BenchmarkExecutor/A6/38-workers-128        	       1	83074030096 ns/op	37794050080 B/op	361168507 allocs/op
+--- BENCH: BenchmarkExecutor/A6/38-workers-128
+    main_test.go:49: number of matches: 6424
+BenchmarkExecutor/A6/39-workers-128        	       1	82279154592 ns/op	37843190272 B/op	361685472 allocs/op
+--- BENCH: BenchmarkExecutor/A6/39-workers-128
+    main_test.go:49: number of matches: 6465
+BenchmarkExecutor/A6/40-workers-128        	       1	81974828310 ns/op	37680222624 B/op	360554978 allocs/op
+--- BENCH: BenchmarkExecutor/A6/40-workers-128
+    main_test.go:49: number of matches: 6381
+BenchmarkExecutor/A6/41-workers-128        	       1	82175476145 ns/op	37743609760 B/op	361286305 allocs/op
+--- BENCH: BenchmarkExecutor/A6/41-workers-128
+    main_test.go:49: number of matches: 6438
+BenchmarkExecutor/A6/42-workers-128        	       1	83160521038 ns/op	37759073840 B/op	361268246 allocs/op
+--- BENCH: BenchmarkExecutor/A6/42-workers-128
+    main_test.go:49: number of matches: 6398
+BenchmarkExecutor/A6/43-workers-128        	       1	83186879612 ns/op	37765499568 B/op	360880525 allocs/op
+--- BENCH: BenchmarkExecutor/A6/43-workers-128
+    main_test.go:49: number of matches: 6390
+BenchmarkExecutor/A6/44-workers-128        	       1	81916120773 ns/op	37801160112 B/op	361180635 allocs/op
+--- BENCH: BenchmarkExecutor/A6/44-workers-128
+    main_test.go:49: number of matches: 6414
+BenchmarkExecutor/A6/45-workers-128        	       1	82005909897 ns/op	37718616288 B/op	361096096 allocs/op
+--- BENCH: BenchmarkExecutor/A6/45-workers-128
+    main_test.go:49: number of matches: 6428
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/A6/46-workers-128        	       1	10710490397 ns/op	4407418112 B/op	107930224 allocs/op
+--- BENCH: BenchmarkExecutor/A6/46-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/A6/47-workers-128        	       1	82975306888 ns/op	37773843792 B/op	361416122 allocs/op
+--- BENCH: BenchmarkExecutor/A6/47-workers-128
+    main_test.go:49: number of matches: 6422
+BenchmarkExecutor/A6/48-workers-128        	       1	82856427116 ns/op	37814965152 B/op	361821424 allocs/op
+--- BENCH: BenchmarkExecutor/A6/48-workers-128
+    main_test.go:49: number of matches: 6437
+BenchmarkExecutor/A6/49-workers-128        	       1	82309268277 ns/op	37780699632 B/op	360743854 allocs/op
+--- BENCH: BenchmarkExecutor/A6/49-workers-128
+    main_test.go:49: number of matches: 6393
+BenchmarkExecutor/A6/50-workers-128        	       1	82127448245 ns/op	37828597040 B/op	361310515 allocs/op
+--- BENCH: BenchmarkExecutor/A6/50-workers-128
+    main_test.go:49: number of matches: 6429
+BenchmarkExecutor/A6/51-workers-128        	       1	82768013094 ns/op	37724092544 B/op	361036207 allocs/op
+--- BENCH: BenchmarkExecutor/A6/51-workers-128
+    main_test.go:49: number of matches: 6419
+BenchmarkExecutor/A6/52-workers-128        	       1	81505516206 ns/op	37755530208 B/op	361337592 allocs/op
+--- BENCH: BenchmarkExecutor/A6/52-workers-128
+    main_test.go:49: number of matches: 6439
+BenchmarkExecutor/A6/53-workers-128        	       1	82760627245 ns/op	37771920240 B/op	361255841 allocs/op
+--- BENCH: BenchmarkExecutor/A6/53-workers-128
+    main_test.go:49: number of matches: 6413
+BenchmarkExecutor/A6/54-workers-128        	       1	81702659410 ns/op	37771327120 B/op	360986718 allocs/op
+--- BENCH: BenchmarkExecutor/A6/54-workers-128
+    main_test.go:49: number of matches: 6369
+BenchmarkExecutor/A6/55-workers-128        	       1	82423983375 ns/op	37827695312 B/op	361783778 allocs/op
+--- BENCH: BenchmarkExecutor/A6/55-workers-128
+    main_test.go:49: number of matches: 6463
+BenchmarkExecutor/A6/56-workers-128        	       1	82222219475 ns/op	37812047584 B/op	361008769 allocs/op
+--- BENCH: BenchmarkExecutor/A6/56-workers-128
+    main_test.go:49: number of matches: 6415
+BenchmarkExecutor/A6/57-workers-128        	       1	82374189675 ns/op	37780708608 B/op	360048563 allocs/op
+--- BENCH: BenchmarkExecutor/A6/57-workers-128
+    main_test.go:49: number of matches: 6329
+BenchmarkExecutor/A6/58-workers-128        	       1	82906498145 ns/op	37829017296 B/op	360659596 allocs/op
+--- BENCH: BenchmarkExecutor/A6/58-workers-128
+    main_test.go:49: number of matches: 6366
+BenchmarkExecutor/A6/59-workers-128        	       1	83299728188 ns/op	37879489360 B/op	361648127 allocs/op
+--- BENCH: BenchmarkExecutor/A6/59-workers-128
+    main_test.go:49: number of matches: 6464
+BenchmarkExecutor/A6/60-workers-128        	       1	82617447057 ns/op	37796310944 B/op	362299753 allocs/op
+--- BENCH: BenchmarkExecutor/A6/60-workers-128
+    main_test.go:49: number of matches: 6502
+BenchmarkExecutor/A6/61-workers-128        	       1	82502009088 ns/op	37732745072 B/op	360595029 allocs/op
+--- BENCH: BenchmarkExecutor/A6/61-workers-128
+    main_test.go:49: number of matches: 6422
+BenchmarkExecutor/A6/62-workers-128        	       1	81912290405 ns/op	37755596928 B/op	360823975 allocs/op
+--- BENCH: BenchmarkExecutor/A6/62-workers-128
+    main_test.go:49: number of matches: 6403
+BenchmarkExecutor/A6/63-workers-128        	       1	82261459560 ns/op	37791784896 B/op	361168598 allocs/op
+--- BENCH: BenchmarkExecutor/A6/63-workers-128
+    main_test.go:49: number of matches: 6407
+BenchmarkExecutor/A6/64-workers-128        	       1	81986469629 ns/op	37836278768 B/op	361752706 allocs/op
+--- BENCH: BenchmarkExecutor/A6/64-workers-128
+    main_test.go:49: number of matches: 6486
+BenchmarkExecutor/A7/1-workers-128         	       1	160174121977 ns/op	69978182712 B/op	604381068 allocs/op
+--- BENCH: BenchmarkExecutor/A7/1-workers-128
+    main_test.go:49: number of matches: 12624
+BenchmarkExecutor/A7/2-workers-128         	       1	155043525382 ns/op	70099448936 B/op	605704719 allocs/op
+--- BENCH: BenchmarkExecutor/A7/2-workers-128
+    main_test.go:49: number of matches: 12711
+BenchmarkExecutor/A7/3-workers-128         	       1	151765079082 ns/op	70026060840 B/op	604119493 allocs/op
+--- BENCH: BenchmarkExecutor/A7/3-workers-128
+    main_test.go:49: number of matches: 12601
+BenchmarkExecutor/A7/4-workers-128         	       1	155092647237 ns/op	70079409928 B/op	605335477 allocs/op
+--- BENCH: BenchmarkExecutor/A7/4-workers-128
+    main_test.go:49: number of matches: 12641
+BenchmarkExecutor/A7/5-workers-128         	       1	155458951587 ns/op	70115602712 B/op	605863450 allocs/op
+--- BENCH: BenchmarkExecutor/A7/5-workers-128
+    main_test.go:49: number of matches: 12705
+BenchmarkExecutor/A7/6-workers-128         	       1	154767931363 ns/op	70121228856 B/op	605939268 allocs/op
+--- BENCH: BenchmarkExecutor/A7/6-workers-128
+    main_test.go:49: number of matches: 12733
+BenchmarkExecutor/A7/7-workers-128         	       1	152893561650 ns/op	70136985768 B/op	606438805 allocs/op
+--- BENCH: BenchmarkExecutor/A7/7-workers-128
+    main_test.go:49: number of matches: 12752
+BenchmarkExecutor/A7/8-workers-128         	       1	152206739812 ns/op	70076721816 B/op	605004564 allocs/op
+--- BENCH: BenchmarkExecutor/A7/8-workers-128
+    main_test.go:49: number of matches: 12634
+BenchmarkExecutor/A7/9-workers-128         	       1	155698938430 ns/op	70119352920 B/op	605906865 allocs/op
+--- BENCH: BenchmarkExecutor/A7/9-workers-128
+    main_test.go:49: number of matches: 12667
+BenchmarkExecutor/A7/10-workers-128        	       1	154067846408 ns/op	70091786904 B/op	605360543 allocs/op
+--- BENCH: BenchmarkExecutor/A7/10-workers-128
+    main_test.go:49: number of matches: 12665
+BenchmarkExecutor/A7/11-workers-128        	       1	154596062572 ns/op	70109234392 B/op	605680551 allocs/op
+--- BENCH: BenchmarkExecutor/A7/11-workers-128
+    main_test.go:49: number of matches: 12656
+BenchmarkExecutor/A7/12-workers-128        	       1	154462119690 ns/op	70063190056 B/op	604754482 allocs/op
+--- BENCH: BenchmarkExecutor/A7/12-workers-128
+    main_test.go:49: number of matches: 12602
+BenchmarkExecutor/A7/13-workers-128        	       1	155063924120 ns/op	70037644712 B/op	604114170 allocs/op
+--- BENCH: BenchmarkExecutor/A7/13-workers-128
+    main_test.go:49: number of matches: 12618
+BenchmarkExecutor/A7/14-workers-128        	       1	155840226189 ns/op	70088482696 B/op	605085183 allocs/op
+--- BENCH: BenchmarkExecutor/A7/14-workers-128
+    main_test.go:49: number of matches: 12669
+BenchmarkExecutor/A7/15-workers-128        	       1	153984095090 ns/op	70130199368 B/op	606343623 allocs/op
+--- BENCH: BenchmarkExecutor/A7/15-workers-128
+    main_test.go:49: number of matches: 12750
+BenchmarkExecutor/A7/16-workers-128        	       1	152341995740 ns/op	70057754456 B/op	604357094 allocs/op
+--- BENCH: BenchmarkExecutor/A7/16-workers-128
+    main_test.go:49: number of matches: 12583
+BenchmarkExecutor/A7/17-workers-128        	       1	153848012418 ns/op	70119353496 B/op	606095476 allocs/op
+--- BENCH: BenchmarkExecutor/A7/17-workers-128
+    main_test.go:49: number of matches: 12764
+BenchmarkExecutor/A7/18-workers-128        	       1	155225375408 ns/op	70151451288 B/op	606518479 allocs/op
+--- BENCH: BenchmarkExecutor/A7/18-workers-128
+    main_test.go:49: number of matches: 12764
+BenchmarkExecutor/A7/19-workers-128        	       1	152887448113 ns/op	70070654184 B/op	605054872 allocs/op
+--- BENCH: BenchmarkExecutor/A7/19-workers-128
+    main_test.go:49: number of matches: 12670
+BenchmarkExecutor/A7/20-workers-128        	       1	152769513553 ns/op	70127491480 B/op	606238698 allocs/op
+--- BENCH: BenchmarkExecutor/A7/20-workers-128
+    main_test.go:49: number of matches: 12733
+BenchmarkExecutor/A7/21-workers-128        	       1	153212276728 ns/op	70101852088 B/op	605683935 allocs/op
+--- BENCH: BenchmarkExecutor/A7/21-workers-128
+    main_test.go:49: number of matches: 12747
+BenchmarkExecutor/A7/22-workers-128        	       1	156613832213 ns/op	70140863592 B/op	605676647 allocs/op
+--- BENCH: BenchmarkExecutor/A7/22-workers-128
+    main_test.go:49: number of matches: 12674
+BenchmarkExecutor/A7/23-workers-128        	       1	155242660612 ns/op	70104170760 B/op	605064620 allocs/op
+--- BENCH: BenchmarkExecutor/A7/23-workers-128
+    main_test.go:49: number of matches: 12677
+BenchmarkExecutor/A7/24-workers-128        	       1	153821240888 ns/op	70164502440 B/op	606625645 allocs/op
+--- BENCH: BenchmarkExecutor/A7/24-workers-128
+    main_test.go:49: number of matches: 12755
+BenchmarkExecutor/A7/25-workers-128        	       1	153519668211 ns/op	70140616376 B/op	605286303 allocs/op
+--- BENCH: BenchmarkExecutor/A7/25-workers-128
+    main_test.go:49: number of matches: 12656
+BenchmarkExecutor/A7/26-workers-128        	       1	155422472226 ns/op	70195365512 B/op	607399403 allocs/op
+--- BENCH: BenchmarkExecutor/A7/26-workers-128
+    main_test.go:49: number of matches: 12820
+BenchmarkExecutor/A7/27-workers-128        	       1	153469344632 ns/op	70161594584 B/op	606034982 allocs/op
+--- BENCH: BenchmarkExecutor/A7/27-workers-128
+    main_test.go:49: number of matches: 12703
+BenchmarkExecutor/A7/28-workers-128        	       1	154239726120 ns/op	70146282408 B/op	606211778 allocs/op
+--- BENCH: BenchmarkExecutor/A7/28-workers-128
+    main_test.go:49: number of matches: 12746
+BenchmarkExecutor/A7/29-workers-128        	       1	154203593355 ns/op	70219327384 B/op	607111112 allocs/op
+--- BENCH: BenchmarkExecutor/A7/29-workers-128
+    main_test.go:49: number of matches: 12774
+BenchmarkExecutor/A7/30-workers-128        	       1	152778720632 ns/op	70046159544 B/op	604165484 allocs/op
+--- BENCH: BenchmarkExecutor/A7/30-workers-128
+    main_test.go:49: number of matches: 12582
+BenchmarkExecutor/A7/31-workers-128        	       1	153435265615 ns/op	70141506200 B/op	605543387 allocs/op
+--- BENCH: BenchmarkExecutor/A7/31-workers-128
+    main_test.go:49: number of matches: 12712
+BenchmarkExecutor/A7/32-workers-128        	       1	154111591806 ns/op	70196555896 B/op	606096402 allocs/op
+--- BENCH: BenchmarkExecutor/A7/32-workers-128
+    main_test.go:49: number of matches: 12702
+BenchmarkExecutor/A7/33-workers-128        	       1	153696275552 ns/op	70159994552 B/op	606233045 allocs/op
+--- BENCH: BenchmarkExecutor/A7/33-workers-128
+    main_test.go:49: number of matches: 12758
+BenchmarkExecutor/A7/34-workers-128        	       1	152366608088 ns/op	70102571384 B/op	604465153 allocs/op
+--- BENCH: BenchmarkExecutor/A7/34-workers-128
+    main_test.go:49: number of matches: 12639
+BenchmarkExecutor/A7/35-workers-128        	       1	153223525189 ns/op	70264148456 B/op	607302624 allocs/op
+--- BENCH: BenchmarkExecutor/A7/35-workers-128
+    main_test.go:49: number of matches: 12805
+BenchmarkExecutor/A7/36-workers-128        	       1	153691153245 ns/op	70077378824 B/op	604376916 allocs/op
+--- BENCH: BenchmarkExecutor/A7/36-workers-128
+    main_test.go:49: number of matches: 12595
+BenchmarkExecutor/A7/37-workers-128        	       1	152374847050 ns/op	70130562088 B/op	605037154 allocs/op
+--- BENCH: BenchmarkExecutor/A7/37-workers-128
+    main_test.go:49: number of matches: 12660
+BenchmarkExecutor/A7/38-workers-128        	       1	154687038841 ns/op	70181089544 B/op	605502681 allocs/op
+--- BENCH: BenchmarkExecutor/A7/38-workers-128
+    main_test.go:49: number of matches: 12680
+BenchmarkExecutor/A7/39-workers-128        	       1	153812428602 ns/op	70188619208 B/op	605189524 allocs/op
+--- BENCH: BenchmarkExecutor/A7/39-workers-128
+    main_test.go:49: number of matches: 12632
+BenchmarkExecutor/A7/40-workers-128        	       1	153738788847 ns/op	70075140328 B/op	605068581 allocs/op
+--- BENCH: BenchmarkExecutor/A7/40-workers-128
+    main_test.go:49: number of matches: 12681
+BenchmarkExecutor/A7/41-workers-128        	       1	153981925227 ns/op	70119622072 B/op	605400080 allocs/op
+--- BENCH: BenchmarkExecutor/A7/41-workers-128
+    main_test.go:49: number of matches: 12672
+BenchmarkExecutor/A7/42-workers-128        	       1	153244319662 ns/op	70128828696 B/op	605293330 allocs/op
+--- BENCH: BenchmarkExecutor/A7/42-workers-128
+    main_test.go:49: number of matches: 12689
+BenchmarkExecutor/A7/43-workers-128        	       1	154199848556 ns/op	70148438056 B/op	605104387 allocs/op
+--- BENCH: BenchmarkExecutor/A7/43-workers-128
+    main_test.go:49: number of matches: 12651
+BenchmarkExecutor/A7/44-workers-128        	       1	154515489192 ns/op	70194758744 B/op	605649673 allocs/op
+--- BENCH: BenchmarkExecutor/A7/44-workers-128
+    main_test.go:49: number of matches: 12706
+BenchmarkExecutor/A7/45-workers-128        	       1	155549275184 ns/op	70063384696 B/op	604602409 allocs/op
+--- BENCH: BenchmarkExecutor/A7/45-workers-128
+    main_test.go:49: number of matches: 12628
+BenchmarkExecutor/A7/46-workers-128        	       1	155824818688 ns/op	70114380568 B/op	605186702 allocs/op
+--- BENCH: BenchmarkExecutor/A7/46-workers-128
+    main_test.go:49: number of matches: 12690
+BenchmarkExecutor/A7/47-workers-128        	       1	153517361779 ns/op	70123477480 B/op	604946656 allocs/op
+--- BENCH: BenchmarkExecutor/A7/47-workers-128
+    main_test.go:49: number of matches: 12664
+BenchmarkExecutor/A7/48-workers-128        	       1	152664288072 ns/op	70192198184 B/op	605964568 allocs/op
+--- BENCH: BenchmarkExecutor/A7/48-workers-128
+    main_test.go:49: number of matches: 12679
+BenchmarkExecutor/A7/49-workers-128        	       1	153787235328 ns/op	70214282728 B/op	606084612 allocs/op
+--- BENCH: BenchmarkExecutor/A7/49-workers-128
+    main_test.go:49: number of matches: 12701
+BenchmarkExecutor/A7/50-workers-128        	       1	154748050892 ns/op	70257369320 B/op	606532196 allocs/op
+--- BENCH: BenchmarkExecutor/A7/50-workers-128
+    main_test.go:49: number of matches: 12734
+BenchmarkExecutor/A7/51-workers-128        	       1	153637921160 ns/op	70080107288 B/op	604736402 allocs/op
+--- BENCH: BenchmarkExecutor/A7/51-workers-128
+    main_test.go:49: number of matches: 12670
+BenchmarkExecutor/A7/52-workers-128        	       1	153713620048 ns/op	70066067176 B/op	604110419 allocs/op
+--- BENCH: BenchmarkExecutor/A7/52-workers-128
+    main_test.go:49: number of matches: 12606
+BenchmarkExecutor/A7/53-workers-128        	       1	155097947252 ns/op	70172588632 B/op	605897030 allocs/op
+--- BENCH: BenchmarkExecutor/A7/53-workers-128
+    main_test.go:49: number of matches: 12745
+BenchmarkExecutor/A7/54-workers-128        	       1	154313092268 ns/op	70218149400 B/op	606594595 allocs/op
+--- BENCH: BenchmarkExecutor/A7/54-workers-128
+    main_test.go:49: number of matches: 12771
+BenchmarkExecutor/A7/55-workers-128        	       1	153512500766 ns/op	70176309768 B/op	605341834 allocs/op
+--- BENCH: BenchmarkExecutor/A7/55-workers-128
+    main_test.go:49: number of matches: 12675
+BenchmarkExecutor/A7/56-workers-128        	       1	155799939750 ns/op	70169886392 B/op	604759126 allocs/op
+--- BENCH: BenchmarkExecutor/A7/56-workers-128
+    main_test.go:49: number of matches: 12654
+BenchmarkExecutor/A7/57-workers-128        	       1	154006674701 ns/op	70231151880 B/op	605727305 allocs/op
+--- BENCH: BenchmarkExecutor/A7/57-workers-128
+    main_test.go:49: number of matches: 12726
+BenchmarkExecutor/A7/58-workers-128        	       1	154372565615 ns/op	70247838344 B/op	605675755 allocs/op
+--- BENCH: BenchmarkExecutor/A7/58-workers-128
+    main_test.go:49: number of matches: 12700
+BenchmarkExecutor/A7/59-workers-128        	       1	155202432661 ns/op	70242903080 B/op	605504461 allocs/op
+--- BENCH: BenchmarkExecutor/A7/59-workers-128
+    main_test.go:49: number of matches: 12649
+BenchmarkExecutor/A7/60-workers-128        	       1	152706471614 ns/op	70120912600 B/op	605335581 allocs/op
+--- BENCH: BenchmarkExecutor/A7/60-workers-128
+    main_test.go:49: number of matches: 12714
+BenchmarkExecutor/A7/61-workers-128        	       1	155622957205 ns/op	70161522712 B/op	605818168 allocs/op
+--- BENCH: BenchmarkExecutor/A7/61-workers-128
+    main_test.go:49: number of matches: 12704
+BenchmarkExecutor/A7/62-workers-128        	       1	155695155122 ns/op	70175219624 B/op	605876978 allocs/op
+--- BENCH: BenchmarkExecutor/A7/62-workers-128
+    main_test.go:49: number of matches: 12737
+BenchmarkExecutor/A7/63-workers-128        	       1	155529284988 ns/op	70208540696 B/op	606111308 allocs/op
+--- BENCH: BenchmarkExecutor/A7/63-workers-128
+    main_test.go:49: number of matches: 12723
+BenchmarkExecutor/A7/64-workers-128        	       1	156051555538 ns/op	70210976008 B/op	605852747 allocs/op
+--- BENCH: BenchmarkExecutor/A7/64-workers-128
+    main_test.go:49: number of matches: 12702
+BenchmarkExecutor/A8/1-workers-128         	       1	368221843858 ns/op	159517362280 B/op	1183752515 allocs/op
+--- BENCH: BenchmarkExecutor/A8/1-workers-128
+    main_test.go:49: number of matches: 12691
+BenchmarkExecutor/A8/2-workers-128         	       1	359677950431 ns/op	159524974344 B/op	1182708773 allocs/op
+--- BENCH: BenchmarkExecutor/A8/2-workers-128
+    main_test.go:49: number of matches: 12635
+BenchmarkExecutor/A8/3-workers-128         	       1	365113077676 ns/op	159622927384 B/op	1184680491 allocs/op
+--- BENCH: BenchmarkExecutor/A8/3-workers-128
+    main_test.go:49: number of matches: 12755
+BenchmarkExecutor/A8/4-workers-128         	       1	364755196423 ns/op	159512590792 B/op	1182481461 allocs/op
+--- BENCH: BenchmarkExecutor/A8/4-workers-128
+    main_test.go:49: number of matches: 12661
+BenchmarkExecutor/A8/5-workers-128         	       1	353135849095 ns/op	159517418664 B/op	1182389779 allocs/op
+--- BENCH: BenchmarkExecutor/A8/5-workers-128
+    main_test.go:49: number of matches: 12653
+BenchmarkExecutor/A8/6-workers-128         	       1	358959801402 ns/op	159532219400 B/op	1182612937 allocs/op
+--- BENCH: BenchmarkExecutor/A8/6-workers-128
+    main_test.go:49: number of matches: 12678
+BenchmarkExecutor/A8/7-workers-128         	       1	353934129453 ns/op	159578028040 B/op	1183695255 allocs/op
+--- BENCH: BenchmarkExecutor/A8/7-workers-128
+    main_test.go:49: number of matches: 12730
+BenchmarkExecutor/A8/8-workers-128         	       1	357415087244 ns/op	159618417352 B/op	1184423600 allocs/op
+--- BENCH: BenchmarkExecutor/A8/8-workers-128
+    main_test.go:49: number of matches: 12761
+BenchmarkExecutor/A8/9-workers-128         	       1	355480106042 ns/op	159579257752 B/op	1183594409 allocs/op
+--- BENCH: BenchmarkExecutor/A8/9-workers-128
+    main_test.go:49: number of matches: 12762
+BenchmarkExecutor/A8/10-workers-128        	       1	354906038205 ns/op	159547415288 B/op	1182966788 allocs/op
+--- BENCH: BenchmarkExecutor/A8/10-workers-128
+    main_test.go:49: number of matches: 12705
+BenchmarkExecutor/A8/11-workers-128        	       1	357699304011 ns/op	159544795896 B/op	1182858917 allocs/op
+--- BENCH: BenchmarkExecutor/A8/11-workers-128
+    main_test.go:49: number of matches: 12709
+BenchmarkExecutor/A8/12-workers-128        	       1	354875489192 ns/op	159615453672 B/op	1184348901 allocs/op
+--- BENCH: BenchmarkExecutor/A8/12-workers-128
+    main_test.go:49: number of matches: 12752
+BenchmarkExecutor/A8/13-workers-128        	       1	350842455494 ns/op	159537447064 B/op	1182667418 allocs/op
+--- BENCH: BenchmarkExecutor/A8/13-workers-128
+    main_test.go:49: number of matches: 12646
+BenchmarkExecutor/A8/14-workers-128        	       1	357167693233 ns/op	159590658264 B/op	1183661103 allocs/op
+--- BENCH: BenchmarkExecutor/A8/14-workers-128
+    main_test.go:49: number of matches: 12754
+BenchmarkExecutor/A8/15-workers-128        	       1	365113764887 ns/op	159592706936 B/op	1184089057 allocs/op
+--- BENCH: BenchmarkExecutor/A8/15-workers-128
+    main_test.go:49: number of matches: 12686
+BenchmarkExecutor/A8/16-workers-128        	       1	353946201760 ns/op	159636561352 B/op	1184538728 allocs/op
+--- BENCH: BenchmarkExecutor/A8/16-workers-128
+    main_test.go:49: number of matches: 12797
+BenchmarkExecutor/A8/17-workers-128        	       1	355862449146 ns/op	159622584552 B/op	1184695942 allocs/op
+--- BENCH: BenchmarkExecutor/A8/17-workers-128
+    main_test.go:49: number of matches: 12805
+BenchmarkExecutor/A8/18-workers-128        	       1	361405659262 ns/op	159571801432 B/op	1183411557 allocs/op
+--- BENCH: BenchmarkExecutor/A8/18-workers-128
+    main_test.go:49: number of matches: 12635
+BenchmarkExecutor/A8/19-workers-128        	       1	358267593915 ns/op	159554049288 B/op	1183266767 allocs/op
+--- BENCH: BenchmarkExecutor/A8/19-workers-128
+    main_test.go:49: number of matches: 12701
+BenchmarkExecutor/A8/20-workers-128        	       1	352289749656 ns/op	159560257944 B/op	1183360420 allocs/op
+--- BENCH: BenchmarkExecutor/A8/20-workers-128
+    main_test.go:49: number of matches: 12726
+BenchmarkExecutor/A8/21-workers-128        	       1	352684523868 ns/op	159635894216 B/op	1184956242 allocs/op
+--- BENCH: BenchmarkExecutor/A8/21-workers-128
+    main_test.go:49: number of matches: 12826
+BenchmarkExecutor/A8/22-workers-128        	       1	352186003771 ns/op	159620696904 B/op	1183828328 allocs/op
+--- BENCH: BenchmarkExecutor/A8/22-workers-128
+    main_test.go:49: number of matches: 12780
+BenchmarkExecutor/A8/23-workers-128        	       1	353706906544 ns/op	159602387624 B/op	1183532878 allocs/op
+--- BENCH: BenchmarkExecutor/A8/23-workers-128
+    main_test.go:49: number of matches: 12730
+BenchmarkExecutor/A8/24-workers-128        	       1	360201112695 ns/op	159635218808 B/op	1184588171 allocs/op
+--- BENCH: BenchmarkExecutor/A8/24-workers-128
+    main_test.go:49: number of matches: 12806
+BenchmarkExecutor/A8/25-workers-128        	       1	359709550579 ns/op	159647494440 B/op	1183993860 allocs/op
+--- BENCH: BenchmarkExecutor/A8/25-workers-128
+    main_test.go:49: number of matches: 12703
+BenchmarkExecutor/A8/26-workers-128        	       1	363776634683 ns/op	159559907560 B/op	1183154604 allocs/op
+--- BENCH: BenchmarkExecutor/A8/26-workers-128
+    main_test.go:49: number of matches: 12696
+BenchmarkExecutor/A8/27-workers-128        	       1	359873513257 ns/op	159608296296 B/op	1183429588 allocs/op
+--- BENCH: BenchmarkExecutor/A8/27-workers-128
+    main_test.go:49: number of matches: 12689
+BenchmarkExecutor/A8/28-workers-128        	       1	358907137405 ns/op	159585963320 B/op	1183485741 allocs/op
+--- BENCH: BenchmarkExecutor/A8/28-workers-128
+    main_test.go:49: number of matches: 12666
+BenchmarkExecutor/A8/29-workers-128        	       1	358605347557 ns/op	159626327320 B/op	1183760289 allocs/op
+--- BENCH: BenchmarkExecutor/A8/29-workers-128
+    main_test.go:49: number of matches: 12707
+BenchmarkExecutor/A8/30-workers-128        	       1	360933294547 ns/op	159646820376 B/op	1184789168 allocs/op
+--- BENCH: BenchmarkExecutor/A8/30-workers-128
+    main_test.go:49: number of matches: 12821
+BenchmarkExecutor/A8/31-workers-128        	       1	357795654634 ns/op	159691460696 B/op	1185151026 allocs/op
+--- BENCH: BenchmarkExecutor/A8/31-workers-128
+    main_test.go:49: number of matches: 12814
+BenchmarkExecutor/A8/32-workers-128        	       1	361992768308 ns/op	159643097224 B/op	1183580528 allocs/op
+--- BENCH: BenchmarkExecutor/A8/32-workers-128
+    main_test.go:49: number of matches: 12733
+BenchmarkExecutor/A8/33-workers-128        	       1	353237009491 ns/op	159550631944 B/op	1182526601 allocs/op
+--- BENCH: BenchmarkExecutor/A8/33-workers-128
+    main_test.go:49: number of matches: 12625
+BenchmarkExecutor/A8/34-workers-128        	       1	353815029657 ns/op	159678811400 B/op	1184596999 allocs/op
+--- BENCH: BenchmarkExecutor/A8/34-workers-128
+    main_test.go:49: number of matches: 12745
+BenchmarkExecutor/A8/35-workers-128        	       1	352926369641 ns/op	159663787816 B/op	1183783553 allocs/op
+--- BENCH: BenchmarkExecutor/A8/35-workers-128
+    main_test.go:49: number of matches: 12834
+BenchmarkExecutor/A8/36-workers-128        	       1	360313348740 ns/op	159652910936 B/op	1184531828 allocs/op
+--- BENCH: BenchmarkExecutor/A8/36-workers-128
+    main_test.go:49: number of matches: 12767
+BenchmarkExecutor/A8/37-workers-128        	       1	361963533826 ns/op	159594532488 B/op	1182860451 allocs/op
+--- BENCH: BenchmarkExecutor/A8/37-workers-128
+    main_test.go:49: number of matches: 12725
+BenchmarkExecutor/A8/38-workers-128        	       1	362981101961 ns/op	159668793848 B/op	1183800414 allocs/op
+--- BENCH: BenchmarkExecutor/A8/38-workers-128
+    main_test.go:49: number of matches: 12737
+BenchmarkExecutor/A8/39-workers-128        	       1	357556703519 ns/op	159664479528 B/op	1183232229 allocs/op
+--- BENCH: BenchmarkExecutor/A8/39-workers-128
+    main_test.go:49: number of matches: 12657
+BenchmarkExecutor/A8/40-workers-128        	       1	357097433343 ns/op	159553380216 B/op	1183137100 allocs/op
+--- BENCH: BenchmarkExecutor/A8/40-workers-128
+    main_test.go:49: number of matches: 12638
+BenchmarkExecutor/A8/41-workers-128        	       1	354898560587 ns/op	159614992952 B/op	1183847855 allocs/op
+--- BENCH: BenchmarkExecutor/A8/41-workers-128
+    main_test.go:49: number of matches: 12766
+BenchmarkExecutor/A8/42-workers-128        	       1	353866080008 ns/op	159612544200 B/op	1183514540 allocs/op
+--- BENCH: BenchmarkExecutor/A8/42-workers-128
+    main_test.go:49: number of matches: 12720
+BenchmarkExecutor/A8/43-workers-128        	       1	358652774484 ns/op	159736768888 B/op	1185501895 allocs/op
+--- BENCH: BenchmarkExecutor/A8/43-workers-128
+    main_test.go:49: number of matches: 12812
+BenchmarkExecutor/A8/44-workers-128        	       1	357715295895 ns/op	159637740232 B/op	1182972491 allocs/op
+--- BENCH: BenchmarkExecutor/A8/44-workers-128
+    main_test.go:49: number of matches: 12668
+BenchmarkExecutor/A8/45-workers-128        	       1	358236654937 ns/op	159569657480 B/op	1183236282 allocs/op
+--- BENCH: BenchmarkExecutor/A8/45-workers-128
+    main_test.go:49: number of matches: 12717
+BenchmarkExecutor/A8/46-workers-128        	       1	356867119722 ns/op	159614461448 B/op	1183723295 allocs/op
+--- BENCH: BenchmarkExecutor/A8/46-workers-128
+    main_test.go:49: number of matches: 12698
+BenchmarkExecutor/A8/47-workers-128        	       1	355001786544 ns/op	159568476552 B/op	1182373930 allocs/op
+--- BENCH: BenchmarkExecutor/A8/47-workers-128
+    main_test.go:49: number of matches: 12650
+BenchmarkExecutor/A8/48-workers-128        	       1	356519643633 ns/op	159593077976 B/op	1182433020 allocs/op
+--- BENCH: BenchmarkExecutor/A8/48-workers-128
+    main_test.go:49: number of matches: 12668
+BenchmarkExecutor/A8/49-workers-128        	       1	356368488255 ns/op	159668400040 B/op	1183657438 allocs/op
+--- BENCH: BenchmarkExecutor/A8/49-workers-128
+    main_test.go:49: number of matches: 12715
+BenchmarkExecutor/A8/50-workers-128        	       1	355577243146 ns/op	159660313112 B/op	1183016539 allocs/op
+--- BENCH: BenchmarkExecutor/A8/50-workers-128
+    main_test.go:49: number of matches: 12705
+BenchmarkExecutor/A8/51-workers-128        	       1	359661294331 ns/op	159645553992 B/op	1184651931 allocs/op
+--- BENCH: BenchmarkExecutor/A8/51-workers-128
+    main_test.go:49: number of matches: 12819
+BenchmarkExecutor/A8/52-workers-128        	       1	356186960728 ns/op	159577730280 B/op	1182875137 allocs/op
+--- BENCH: BenchmarkExecutor/A8/52-workers-128
+    main_test.go:49: number of matches: 12698
+BenchmarkExecutor/A8/53-workers-128        	       1	357271798770 ns/op	159538992296 B/op	1181630274 allocs/op
+--- BENCH: BenchmarkExecutor/A8/53-workers-128
+    main_test.go:49: number of matches: 12590
+BenchmarkExecutor/A8/54-workers-128        	       1	358918843738 ns/op	159696607864 B/op	1184653917 allocs/op
+--- BENCH: BenchmarkExecutor/A8/54-workers-128
+    main_test.go:49: number of matches: 12835
+BenchmarkExecutor/A8/55-workers-128        	       1	356353360105 ns/op	159644074024 B/op	1183202635 allocs/op
+--- BENCH: BenchmarkExecutor/A8/55-workers-128
+    main_test.go:49: number of matches: 12641
+BenchmarkExecutor/A8/56-workers-128        	       1	360893149445 ns/op	159640483528 B/op	1182707140 allocs/op
+--- BENCH: BenchmarkExecutor/A8/56-workers-128
+    main_test.go:49: number of matches: 12720
+BenchmarkExecutor/A8/57-workers-128        	       1	358195201278 ns/op	159750503128 B/op	1184708676 allocs/op
+--- BENCH: BenchmarkExecutor/A8/57-workers-128
+    main_test.go:49: number of matches: 12819
+BenchmarkExecutor/A8/58-workers-128        	       1	352657702477 ns/op	159760126872 B/op	1184465792 allocs/op
+--- BENCH: BenchmarkExecutor/A8/58-workers-128
+    main_test.go:49: number of matches: 12798
+BenchmarkExecutor/A8/59-workers-128        	       1	361068437044 ns/op	159770757800 B/op	1184593420 allocs/op
+--- BENCH: BenchmarkExecutor/A8/59-workers-128
+    main_test.go:49: number of matches: 12744
+BenchmarkExecutor/A8/60-workers-128        	       1	357335751197 ns/op	159592352712 B/op	1183307511 allocs/op
+--- BENCH: BenchmarkExecutor/A8/60-workers-128
+    main_test.go:49: number of matches: 12717
+BenchmarkExecutor/A8/61-workers-128        	       1	359341303392 ns/op	159599247688 B/op	1183051533 allocs/op
+--- BENCH: BenchmarkExecutor/A8/61-workers-128
+    main_test.go:49: number of matches: 12721
+BenchmarkExecutor/A8/62-workers-128        	       1	359063696383 ns/op	159574005640 B/op	1182288883 allocs/op
+--- BENCH: BenchmarkExecutor/A8/62-workers-128
+    main_test.go:49: number of matches: 12608
+BenchmarkExecutor/A8/63-workers-128        	       1	360107937596 ns/op	159624013976 B/op	1182925813 allocs/op
+--- BENCH: BenchmarkExecutor/A8/63-workers-128
+    main_test.go:49: number of matches: 12673
+BenchmarkExecutor/A8/64-workers-128        	       1	358061865672 ns/op	159628603848 B/op	1182639105 allocs/op
+--- BENCH: BenchmarkExecutor/A8/64-workers-128
+    main_test.go:49: number of matches: 12577
+BenchmarkExecutor/B1/1-workers-128         	       1	21565372261 ns/op	7136446184 B/op	159385161 allocs/op
+--- BENCH: BenchmarkExecutor/B1/1-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/2-workers-128         	       1	18910514684 ns/op	7196441816 B/op	159385238 allocs/op
+--- BENCH: BenchmarkExecutor/B1/2-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/3-workers-128         	       1	17154834845 ns/op	7196699608 B/op	159385284 allocs/op
+--- BENCH: BenchmarkExecutor/B1/3-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/4-workers-128         	       1	16632969787 ns/op	7192745608 B/op	159385313 allocs/op
+--- BENCH: BenchmarkExecutor/B1/4-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/5-workers-128         	       1	15222077616 ns/op	7203497720 B/op	159385366 allocs/op
+--- BENCH: BenchmarkExecutor/B1/5-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/6-workers-128         	       1	14274133055 ns/op	7205868456 B/op	159385542 allocs/op
+--- BENCH: BenchmarkExecutor/B1/6-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/7-workers-128         	       1	15046853478 ns/op	7197677512 B/op	159385473 allocs/op
+--- BENCH: BenchmarkExecutor/B1/7-workers-128
+    main_test.go:49: number of matches: 0
+recovered from threadJob error: Invalid element constructionBenchmarkExecutor/B1/8-workers-128         	       1	14552698539 ns/op	7202709704 B/op	159309121 allocs/op
+--- BENCH: BenchmarkExecutor/B1/8-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/9-workers-128         	       1	15100108804 ns/op	7205435416 B/op	159385525 allocs/op
+--- BENCH: BenchmarkExecutor/B1/9-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/10-workers-128        	       1	15488111615 ns/op	7203624056 B/op	159385509 allocs/op
+--- BENCH: BenchmarkExecutor/B1/10-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/11-workers-128        	       1	16899561745 ns/op	7207960152 B/op	159385550 allocs/op
+--- BENCH: BenchmarkExecutor/B1/11-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/12-workers-128        	       1	16794722302 ns/op	7206082728 B/op	159385646 allocs/op
+--- BENCH: BenchmarkExecutor/B1/12-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/13-workers-128        	       1	15983317693 ns/op	7209412440 B/op	159385760 allocs/op
+--- BENCH: BenchmarkExecutor/B1/13-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/14-workers-128        	       1	16025356162 ns/op	7214865992 B/op	159385714 allocs/op
+--- BENCH: BenchmarkExecutor/B1/14-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/15-workers-128        	       1	15894329109 ns/op	7196253896 B/op	159385710 allocs/op
+--- BENCH: BenchmarkExecutor/B1/15-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/16-workers-128        	       1	16691260664 ns/op	7217412392 B/op	159385751 allocs/op
+--- BENCH: BenchmarkExecutor/B1/16-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/17-workers-128        	       1	16524407633 ns/op	7196628296 B/op	159385787 allocs/op
+--- BENCH: BenchmarkExecutor/B1/17-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/18-workers-128        	       1	16550665833 ns/op	7207303304 B/op	159385855 allocs/op
+--- BENCH: BenchmarkExecutor/B1/18-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/19-workers-128        	       1	16721488576 ns/op	7197002440 B/op	159385865 allocs/op
+--- BENCH: BenchmarkExecutor/B1/19-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/20-workers-128        	       1	16470178357 ns/op	7198361416 B/op	159385853 allocs/op
+--- BENCH: BenchmarkExecutor/B1/20-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/21-workers-128        	       1	17284185161 ns/op	7198594072 B/op	159385893 allocs/op
+--- BENCH: BenchmarkExecutor/B1/21-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/22-workers-128        	       1	16728831561 ns/op	7238596888 B/op	159385914 allocs/op
+--- BENCH: BenchmarkExecutor/B1/22-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/23-workers-128        	       1	16957725069 ns/op	7231488392 B/op	159385940 allocs/op
+--- BENCH: BenchmarkExecutor/B1/23-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/24-workers-128        	       1	17202411920 ns/op	7215917688 B/op	159385973 allocs/op
+--- BENCH: BenchmarkExecutor/B1/24-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/25-workers-128        	       1	16826894353 ns/op	7255959512 B/op	159386027 allocs/op
+--- BENCH: BenchmarkExecutor/B1/25-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/26-workers-128        	       1	16751627231 ns/op	7208930248 B/op	159386052 allocs/op
+--- BENCH: BenchmarkExecutor/B1/26-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/27-workers-128        	       1	17102035446 ns/op	7242682344 B/op	159386112 allocs/op
+--- BENCH: BenchmarkExecutor/B1/27-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/28-workers-128        	       1	16694246718 ns/op	7217743896 B/op	159386084 allocs/op
+--- BENCH: BenchmarkExecutor/B1/28-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/29-workers-128        	       1	16620911100 ns/op	7247263416 B/op	159386141 allocs/op
+--- BENCH: BenchmarkExecutor/B1/29-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/30-workers-128        	       1	16648265287 ns/op	7215197576 B/op	159386171 allocs/op
+--- BENCH: BenchmarkExecutor/B1/30-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/31-workers-128        	       1	16872824805 ns/op	7244681272 B/op	159386121 allocs/op
+--- BENCH: BenchmarkExecutor/B1/31-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/32-workers-128        	       1	16468049830 ns/op	7272148872 B/op	159386178 allocs/op
+--- BENCH: BenchmarkExecutor/B1/32-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/33-workers-128        	       1	16918794497 ns/op	7230445912 B/op	159386193 allocs/op
+--- BENCH: BenchmarkExecutor/B1/33-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/34-workers-128        	       1	16991819159 ns/op	7258961624 B/op	159386257 allocs/op
+--- BENCH: BenchmarkExecutor/B1/34-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/35-workers-128        	       1	17317152150 ns/op	7283246424 B/op	159386318 allocs/op
+--- BENCH: BenchmarkExecutor/B1/35-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/36-workers-128        	       1	16766355480 ns/op	7236296568 B/op	159386293 allocs/op
+--- BENCH: BenchmarkExecutor/B1/36-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/37-workers-128        	       1	17346201615 ns/op	7256426360 B/op	159386360 allocs/op
+--- BENCH: BenchmarkExecutor/B1/37-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/38-workers-128        	       1	16536398594 ns/op	7285911112 B/op	159386341 allocs/op
+--- BENCH: BenchmarkExecutor/B1/38-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/39-workers-128        	       1	16782047871 ns/op	7310270216 B/op	159386385 allocs/op
+--- BENCH: BenchmarkExecutor/B1/39-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/40-workers-128        	       1	16765290548 ns/op	7201344184 B/op	159386393 allocs/op
+--- BENCH: BenchmarkExecutor/B1/40-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/41-workers-128        	       1	17116994674 ns/op	7228887336 B/op	159386456 allocs/op
+--- BENCH: BenchmarkExecutor/B1/41-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/42-workers-128        	       1	16983168401 ns/op	7244782200 B/op	159386498 allocs/op
+--- BENCH: BenchmarkExecutor/B1/42-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/43-workers-128        	       1	17320203673 ns/op	7272325720 B/op	159386557 allocs/op
+--- BENCH: BenchmarkExecutor/B1/43-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/44-workers-128        	       1	17115641352 ns/op	7293419496 B/op	159386512 allocs/op
+--- BENCH: BenchmarkExecutor/B1/44-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/45-workers-128        	       1	16981317977 ns/op	7212807384 B/op	159386532 allocs/op
+--- BENCH: BenchmarkExecutor/B1/45-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/46-workers-128        	       1	17017468074 ns/op	7235029480 B/op	159386560 allocs/op
+--- BENCH: BenchmarkExecutor/B1/46-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/47-workers-128        	       1	17017063044 ns/op	7254149896 B/op	159386678 allocs/op
+--- BENCH: BenchmarkExecutor/B1/47-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/48-workers-128        	       1	16797734706 ns/op	7275243704 B/op	159386627 allocs/op
+--- BENCH: BenchmarkExecutor/B1/48-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/49-workers-128        	       1	17321379102 ns/op	7292190728 B/op	159386698 allocs/op
+--- BENCH: BenchmarkExecutor/B1/49-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/50-workers-128        	       1	17164141828 ns/op	7313448328 B/op	159386712 allocs/op
+--- BENCH: BenchmarkExecutor/B1/50-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/51-workers-128        	       1	17061046691 ns/op	7222382504 B/op	159386710 allocs/op
+--- BENCH: BenchmarkExecutor/B1/51-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/52-workers-128        	       1	16632600528 ns/op	7238268632 B/op	159386739 allocs/op
+--- BENCH: BenchmarkExecutor/B1/52-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/53-workers-128        	       1	17242812069 ns/op	7258393400 B/op	159386743 allocs/op
+--- BENCH: BenchmarkExecutor/B1/53-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/54-workers-128        	       1	17180181711 ns/op	7272153128 B/op	159386769 allocs/op
+--- BENCH: BenchmarkExecutor/B1/54-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/55-workers-128        	       1	17255774793 ns/op	7290333672 B/op	159386831 allocs/op
+--- BENCH: BenchmarkExecutor/B1/55-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/56-workers-128        	       1	17346213278 ns/op	7310343256 B/op	159386806 allocs/op
+--- BENCH: BenchmarkExecutor/B1/56-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/57-workers-128        	       1	17482556608 ns/op	7326163496 B/op	159386845 allocs/op
+--- BENCH: BenchmarkExecutor/B1/57-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/58-workers-128        	       1	17329073827 ns/op	7345282296 B/op	159386894 allocs/op
+--- BENCH: BenchmarkExecutor/B1/58-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/59-workers-128        	       1	17287523942 ns/op	7348664392 B/op	159386874 allocs/op
+--- BENCH: BenchmarkExecutor/B1/59-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/60-workers-128        	       1	17056780222 ns/op	7234537752 B/op	159386967 allocs/op
+--- BENCH: BenchmarkExecutor/B1/60-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/61-workers-128        	       1	17273223396 ns/op	7251447176 B/op	159387028 allocs/op
+--- BENCH: BenchmarkExecutor/B1/61-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/62-workers-128        	       1	17251196791 ns/op	7264304376 B/op	159387042 allocs/op
+--- BENCH: BenchmarkExecutor/B1/62-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/63-workers-128        	       1	17228234398 ns/op	7284386632 B/op	159386969 allocs/op
+--- BENCH: BenchmarkExecutor/B1/63-workers-128
+    main_test.go:49: number of matches: 0
+BenchmarkExecutor/B1/64-workers-128        	       1	16850263935 ns/op	7301331256 B/op	159387052 allocs/op
+--- BENCH: BenchmarkExecutor/B1/64-workers-128
+    main_test.go:49: number of matches: 0
+PASS
+ok  	command-line-arguments	53041.703s
