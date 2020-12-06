@@ -292,12 +292,12 @@ func ParseString(str []byte, numThreads int) (*symbol, error) {
 	var stackPoolNewNonterminalsFinalPass *stackPool
 	var stackPtrPoolFinalPass *stackPtrPool
 	if numThreads > 1 {
-		stackPoolFinalPass = newStackPool(int(stackPoolBaseSize * 0.1 * float64(numThreads)))
-		Stats.StackPoolSizeFinalPass = int(stackPoolBaseSize * 0.1 * float64(numThreads))
-		stackPoolNewNonterminalsFinalPass = newStackPool(int(stackPoolBaseSize * 0.05 * float64(numThreads)))
-		Stats.StackPoolNewNonterminalsSizeFinalPass = int(stackPoolBaseSize * 0.05 * float64(numThreads))
-		stackPtrPoolFinalPass = newStackPtrPool(int(stackPtrPoolBaseSize * 0.1))
-		Stats.StackPtrPoolSizeFinalPass = int(int(stackPtrPoolBaseSize * 0.1))
+		stackPoolFinalPass = newStackPool(int(math.Ceil(stackPoolBaseSize * 0.1 * float64(numThreads))))
+		Stats.StackPoolSizeFinalPass = int(math.Ceil(stackPoolBaseSize * 0.1 * float64(numThreads)))
+		stackPoolNewNonterminalsFinalPass = newStackPool(int(math.Ceil(stackPoolBaseSize * 0.05 * float64(numThreads))))
+		Stats.StackPoolNewNonterminalsSizeFinalPass = int(math.Ceil(stackPoolBaseSize * 0.05 * float64(numThreads)))
+		stackPtrPoolFinalPass = newStackPtrPool(int(math.Ceil(stackPtrPoolBaseSize * 0.1)))
+		Stats.StackPtrPoolSizeFinalPass = int(int(math.Ceil(stackPtrPoolBaseSize * 0.1)))
 	}
 
 	lexerPreallocMem(rawInputSize, numThreads)

@@ -7,17 +7,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/simoneguidi94/gopapageno/languages/XML"
+	"github.com/filgor84/gogopapageno/languages/XML"
 )
 
 const QUERYSETS_DATA_DIR = "data"
 
-
-func TestA1_1_worker(t *testing.T){	
-     input, _ := ioutil.ReadFile("data/standard.xml")
-     XML.Execute("A1").AgainstString(input).WithNumberOfThreads(1).Go()
+func TestA1_1_worker(t *testing.T) {
+	input, _ := ioutil.ReadFile("data/standard.xml")
+	XML.Execute("A1").AgainstString(input).WithNumberOfThreads(1).Go()
 }
-
 
 func BenchmarkExecutor(b *testing.B) {
 	querysets := []string{"A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "B1"}
@@ -29,7 +27,7 @@ func BenchmarkExecutor(b *testing.B) {
 }
 
 func benchmarkQueryset(b *testing.B, input []byte, queryset string) {
-	numbersOfWorkers := intRange(1,65)
+	numbersOfWorkers := intRange(1, 65)
 
 	b.ResetTimer()
 	b.Run(queryset, func(b *testing.B) {

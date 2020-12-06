@@ -18,10 +18,10 @@ var (
 )
 
 var usage = `Usage parserTester
-	-q	Name of the query type to be exeecuted
+	-q	Name of the query type to be executed
 	-f	Name of the file containing the XML document to query
 	-n	Number of parsers to run concurrently
-	-n  In verbose mode
+	-v  In verbose mode
 `
 
 func main() {
