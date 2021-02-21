@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/simoneguidi94/gopapageno/generator"
+	"github.com/filgor84/gogopapageno/generator"
 )
 
 func main() {
