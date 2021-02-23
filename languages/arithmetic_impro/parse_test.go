@@ -18,7 +18,7 @@ func parseTestFile(b *testing.B, fileName string, thread_n int, exp_res int64) {
 		} else {
 			res := *root.Value.(*int64)
 			if res != exp_res {
-				b.Errorf("True res: %d\nCalculated res: %d\n", exp_res, res)
+				b.Errorf("True res: %d\nExpected res: %d\n", exp_res, res)
 			}
 		}
 	}

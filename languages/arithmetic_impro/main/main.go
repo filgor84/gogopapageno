@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gogopapageno/languages/arithmetic_impro"
 	"log"
 	"os"
 	"runtime"
 	"runtime/pprof"
 	"time"
+
+	"github.com/filgor84/gogopapageno/languages/arithmetic_impro"
 )
 
 var cpuprofile = flag.String("cpuprofile", "", "") //write cpu profile to file")
@@ -49,10 +50,10 @@ func main() {
 	fmt.Println("Available cores:", runtime.GOMAXPROCS(0))
 
 	fmt.Println("Number of threads:", *numThreads)
-	start:=time.Now()
+	start := time.Now()
 
 	root, err := arithmetic_impro.ParseFile(*fname, *numThreads)
-	total_time:=time.Since(start)
+	total_time := time.Since(start)
 
 	if err == nil {
 		fmt.Println("Parse succeded!")
