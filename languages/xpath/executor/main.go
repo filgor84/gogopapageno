@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/filgor84/gogopapageno/languages/XML"
+	"github.com/filgor84/gogopapageno/languages/xpath"
 )
 
 const fileToParsePath = "./data/small.1.xml"
@@ -36,7 +36,7 @@ func main() {
 		usageAndExit("-f can not be empty")
 	}
 
-	command := XML.Execute(*q).AgainstFile(*f).WithNumberOfThreads(*n)
+	command := xpath.Execute(*q).AgainstFile(*f).WithNumberOfThreads(*n)
 
 	if *v {
 		command = command.InVerboseMode()

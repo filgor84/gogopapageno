@@ -1,0 +1,21 @@
+Ristrutturare il codice per renderlo più testabile.
+Il linguaggio prodotto deve avere tre moduli:
+-parallelizer
+-lexer
+-parser
+
+Il modulo generator che serve a produrre il linguaggio specifico deve avere:
+-il modulo lexer_generator, che crea l'automa a stati finiti e le specifiche dei simboli
+-il modulo parser_generator ...
+
+Ad ogni modo, piuttosto che mettersi a modificare gogopapageno, è meglio iniziare a modificare direttamente
+i parser di linguaggi prodotti e poi vedere come implementarne il generatore.
+Partendo dal più semplice, le modifiche, oltre alla struttura più ordinata, devono essere:
+-possibilità di avere simboli con tipi di dati semplici, senza uso di interface
+-eliminazione della struttura ad albero con esecuzione online delle operazioni limitata ai
+dati associati ai simboli
+-semplificazioni delle strutture dati (stackpool non mi convince)
+
+Step 1: simboli semplici
+Step 2: lexer online (leggo la stringa, estraggo un simbolo, lo impilo)
+Step 3: implemento la parallelizzazione a parte

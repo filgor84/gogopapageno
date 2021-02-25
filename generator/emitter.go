@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/simoneguidi94/gopapageno/generator/regex"
+	"github.com/filgor84/gogopapageno/generator/regex"
 )
 
 func emitOutputFolder(outdir string) error {

@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/filgor84/gogopapageno/languages/XML"
+	"github.com/filgor84/gogopapageno/languages/xpath"
 )
 
 const QUERYSETS_DATA_DIR = "data"
 
 func TestA1_1_worker(t *testing.T) {
 	input, _ := ioutil.ReadFile("data/standard.xml")
-	XML.Execute("A1").AgainstString(input).WithNumberOfThreads(1).Go()
+	xpath.Execute("A1").AgainstString(input).WithNumberOfThreads(1).Go()
 }
 
 func BenchmarkExecutor(b *testing.B) {
@@ -40,9 +40,9 @@ func benchmarkQueryset(b *testing.B, input []byte, queryset string) {
 func benchmarkQuerysetWithNumberOfWorkers(b *testing.B, input []byte, queryset string, nOfWorkers int) {
 	b.Run(fmt.Sprintf("%d-workers", nOfWorkers), func(b *testing.B) {
 		b.ResetTimer()
-		var result []XML.Position
+		var result []xpath.Position
 		for i := 0; i < b.N; i++ {
-			result, _ = XML.Execute(queryset).AgainstString(input).WithNumberOfThreads(nOfWorkers).Go()
+			result, _ = xpath.Execute(queryset).AgainstString(input).WithNumberOfThreads(nOfWorkers).Go()
 		}
 		b.Logf("number of matches: %d\n", len(result))
 	})

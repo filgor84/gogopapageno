@@ -86,9 +86,8 @@ func Generate(lexerFilename string, parserFilename string, outdir string) {
 	if axiom == "" {
 		fmt.Println("Error: the axiom is not defined")
 		return
-	} else {
-		fmt.Println("Axiom:", axiom)
 	}
+	fmt.Println("Axiom:", axiom)
 
 	fmt.Printf("Rules (%d):\n", len(rules))
 	for _, r := range rules {
